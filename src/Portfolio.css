@@ -222,8 +222,8 @@ span {
     }
 
     .icon-hidden {
-        height: 50px;
-        width: 50px;
-        margin: 25px 30px;
+        height: 45px;
+        width: 45px;
+        margin: 10px 20px;
     }
 }
