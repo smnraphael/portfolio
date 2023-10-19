@@ -1,5 +1,5 @@
 .left {
-    margin-top: 100px;
+    margin-top: 75px;
     position: fixed;
 }
 
@@ -32,7 +32,7 @@ h1 {
 }
 
 .nav {
-    margin-bottom: 100px;
+    margin-bottom: 50px;
 }
 
 .nav-link {
@@ -76,7 +76,7 @@ h1 {
 .education,
 .certifications,
 .projects {
-    padding-top: 100px;
+    padding-top: 75px;
 }
 
 .hidden-title {
@@ -177,6 +177,7 @@ span {
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        margin-top: 150px;
     }
 
     .nav {
