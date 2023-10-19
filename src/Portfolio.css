@@ -36,26 +36,41 @@ h1 {
 }
 
 .nav-link {
-    color: black;
     font-size: 14px;
     font-weight: 400;
     padding-left: 0;
-    transition: text-shadow 0.5s ease;
     margin-left: 1%;
     margin-right: 1%;
 }
 
-.nav-link:hover {
+.external-link {
     color: black;
-    text-shadow: 0px 0px 15px rgba(0, 0, 0, 0.3);
-    transition: text-shadow 0.5s ease;
+    text-decoration: none;
 }
 
-.nav-link:focus {
-    color: black;
-    text-shadow: 0px 0px 15px rgba(0, 0, 0, 0.3);
-    transition: text-shadow 0.5s ease;
+.nav-link,
+.external-link {
+    color: rgb(50, 50, 50);
 }
+
+.nav-link:hover,
+.external-link:hover {
+    color: black;
+}
+
+.nav-link:focus,
+.external-link:focus {
+    color: black;
+}
+
+#shadow {
+    text-shadow: none;
+    animation: mymove 3s infinite;
+  }
+
+@keyframes mymove {
+    50% {text-shadow: 0px 0px 25px rgba(50, 50, 50, 0.5);}
+  }
 
 .icon {
     height: 40px;

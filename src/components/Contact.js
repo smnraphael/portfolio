@@ -3,7 +3,7 @@ import linkedin from '../assets/linkedin.svg';
 import github from '../assets/github.svg';
 import email from '../assets/email.svg';
 import resume from '../assets/resume.svg';
-import resumepdf from '../assets/resume-raphael-simon.pdf';
+import resumepdf from '../assets/resumepdf.pdf';
 
 function Contact() {
     return (

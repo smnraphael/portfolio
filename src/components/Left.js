@@ -2,7 +2,7 @@ import React from 'react';
 import linkedin from '../assets/linkedin.svg';
 import github from '../assets/github.svg';
 import email from '../assets/email.svg';
-import resumepdf from '../assets/resume-raphael-simon.pdf';
+import resumepdf from '../assets/resumepdf.pdf';
 
 function Left() {
 
@@ -21,17 +21,17 @@ function Left() {
 
     return (
         <div className="col-lg-4 col-md-12 left">
-            <h1>Raphaël SIMON</h1>
+            <h1 id="shadow" >Raphaël SIMON</h1>
             <div className="space">
                 <p id="message" className="message"></p>
             </div>
             <nav class="nav flex-column">
-                <a class="nav-link" href="#about">ABOUT</a>
-                <a class="nav-link" href="#work-history">WORK HISTORY</a>
-                <a class="nav-link" href="#education">EDUCATION</a>
-                <a class="nav-link" href="#certifications">CERTIFICATIONS</a>
-                <a class="nav-link" href="#projects">PROJECTS</a>
-                <a class="nav-link" href={resumepdf} target="_blank" rel="noopener noreferrer">RESUME</a>
+                <a id="shadow" class="nav-link" href="#about">ABOUT</a>
+                <a id="shadow" class="nav-link" href="#work-history">WORK HISTORY</a>
+                <a id="shadow" class="nav-link" href="#education">EDUCATION</a>
+                <a id="shadow" class="nav-link" href="#certifications">CERTIFICATIONS</a>
+                <a id="shadow" class="nav-link" href="#projects">PROJECTS</a>
+                <a id="shadow" class="nav-link" href={resumepdf} target="_blank" rel="noopener noreferrer">RESUME</a>
             </nav>
             <div className="icons">
                 <a href="https://www.linkedin.com/in/simonraphael" target="_blank" rel="noopener noreferrer"><img className="icon" src={linkedin} alt="linkedin" /></a>

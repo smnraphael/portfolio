@@ -1,4 +1,7 @@
 import React from 'react';
+import prompt from '../assets/prompt.pdf';
+import harvard from '../assets/harvard.pdf';
+import google from '../assets/google.pdf';
 
 function Certifications() {
   return (
@@ -17,7 +20,7 @@ function Certifications() {
 
       <div className="section">
         <p className="diploma">
-            Prompt Engineering for ChatGPT • Vanderbilt University
+          <a id="shadow" className="external-link" href={prompt} target="_blank" rel="noopener noreferrer">Prompt Engineering for ChatGPT</a> • Vanderbilt University
         </p>
         <p className="date">
             October 2023
@@ -26,7 +29,7 @@ function Certifications() {
 
       <div className="section">
         <p className="diploma">
-            CS50x: Introduction to Computer Science • Harvard University
+          <a id="shadow" className="external-link" href={harvard} target="_blank" rel="noopener noreferrer">CS50x: Introduction to Computer Science</a> • Harvard University
         </p>
         <p className="date">
             August 2023
@@ -35,7 +38,7 @@ function Certifications() {
 
       <div className="section">
         <p className="diploma">
-            Google Data Analytics Professional Certification • Google
+          <a id="shadow" className="external-link" href={google} target="_blank" rel="noopener noreferrer">Google Data Analytics Professional Certificate</a> • Google
         </p>
         <p className="date">
             December 2021

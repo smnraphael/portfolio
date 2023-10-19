@@ -8,7 +8,7 @@ function Education() {
 
     <div className="section">
       <p className="title">
-        Nagoya University of Commerce & Business
+        <a id="shadow" className="external-link" href="https://mba.nucba.ac.jp/en/" target="_blank" rel="noopener noreferrer">Nagoya University of Commerce & Business</a>
       </p>
       <p className="date">
         September 2021 - September 2022
@@ -28,7 +28,7 @@ function Education() {
 
     <div className="section">
       <p className="title">
-        NEOMA Business School
+        <a id="shadow" className="external-link" href="https://neoma-bs.com" target="_blank" rel="noopener noreferrer">NEOMA Business School</a>
       </p>
       <p className="date">
         September 2019 - September 2022
@@ -45,7 +45,7 @@ function Education() {
 
     <div className="section">
       <p className="title">
-        Shanghai University of Finance & Economics
+        <a id="shadow" className="external-link" href="https://english.sufe.edu.cn" target="_blank" rel="noopener noreferrer">Shanghai University of Finance & Economics</a>
       </p>
       <p className="date">
         January 2021 - June 2021
@@ -62,7 +62,7 @@ function Education() {
 
     <div className="section">
       <p className="title">
-        Southern Brittany University
+        <a id="shadow" className="external-link" href="https://www.univ-ubs.fr/en/index.html" target="_blank" rel="noopener noreferrer">Southern Brittany University</a>
       </p>
       <p className="date">
         September 2014 - June 2019

@@ -8,7 +8,7 @@ function WorkHistory() {
 
         <div className="section">
           <p className="title">
-            Web Developer • Kenja K.K.
+            Web Developer • <a id="shadow" className="external-link" href="https://kenja.com" target="_blank" rel="noopener noreferrer">Kenja K.K.</a>
           </p>
           <p className="date">
             August 2023 - Present
@@ -30,7 +30,7 @@ function WorkHistory() {
 
         <div className="section">
           <p className="title">
-            IT Business Analyst | QA Tester • Kenja K.K.
+            IT Business Analyst | QA Tester • <a id="shadow" className="external-link" href="https://kenja.com" target="_blank" rel="noopener noreferrer">Kenja K.K.</a>
           </p>
           <p className="date">
             September 2022 - August 2023
@@ -66,7 +66,7 @@ function WorkHistory() {
 
         <div className="section">
           <p className="title">
-            Assistant Project Manager • Groupe La Française
+            Assistant Project Manager • <a id="shadow" className="external-link" href="https://www.la-francaise.com/en/" target="_blank" rel="noopener noreferrer">Groupe La Française</a>
           </p>
           <p className="date">
             August 2023 - Present
