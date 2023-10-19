@@ -4,6 +4,7 @@ import WorkHistory from './WorkHistory';
 import Education from './Education';
 import Certifications from './Certifications';
 import Projects from './Projects';
+import Contact from './Contact';
 
 function Right() {
   return (
@@ -13,6 +14,7 @@ function Right() {
         <Education />
         <Certifications />
         <Projects />
+        <Contact />
     </div>
   );
 }

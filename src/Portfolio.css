@@ -147,6 +147,10 @@ p {
     margin-top: 15px;
 }
 
+.contact {
+    display: none;
+}
+
 span {
     animation: blinker 1s linear infinite;
 }
@@ -199,11 +203,27 @@ span {
     .work-history,
     .education,
     .certifications,
-    .projects {
+    .projects,
+    .contact {
         padding-top: 75px;
     }
 
     .space {
         height: 25px;
+    }
+
+    .contact {
+        display: block;
+        text-align: center;
+    }
+
+    .icons-hidden {
+        margin-top: 15px;
+    }
+
+    .icon-hidden {
+        height: 50px;
+        width: 50px;
+        margin: 25px 30px;
     }
 }
