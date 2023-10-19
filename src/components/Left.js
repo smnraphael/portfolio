@@ -2,7 +2,7 @@ import React from 'react';
 import linkedin from '../assets/linkedin.svg';
 import github from '../assets/github.svg';
 import email from '../assets/email.svg';
-import resume from '../assets/CV_RaphaelSimon.pdf';
+import resumepdf from '../assets/CV_RaphaelSimon.pdf';
 
 function Left() {
 
@@ -17,7 +17,7 @@ function Left() {
         }
     }
 
-    window.addEventListener("load", typewriter);
+    setTimeout(typewriter, 100);
 
     return (
         <div className="col-lg-4 col-md-12 left">
@@ -31,7 +31,7 @@ function Left() {
                 <a class="nav-link" href="#education">EDUCATION</a>
                 <a class="nav-link" href="#certifications">CERTIFICATIONS</a>
                 <a class="nav-link" href="#projects">PROJECTS</a>
-                <a class="nav-link" href={resume} target="_blank" rel="noopener noreferrer">RESUME</a>
+                <a class="nav-link" href={resumepdf} target="_blank" rel="noopener noreferrer">RESUME</a>
             </nav>
             <div className="icons">
                 <a href="https://www.linkedin.com/in/simonraphael" target="_blank" rel="noopener noreferrer"><img className="icon" src={linkedin} alt="linkedin" /></a>
