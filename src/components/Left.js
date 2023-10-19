@@ -2,7 +2,7 @@ import React from 'react';
 import linkedin from '../assets/linkedin.svg';
 import github from '../assets/github.svg';
 import email from '../assets/email.svg';
-import resumepdf from '../assets/CV_RaphaelSimon.pdf';
+import resumepdf from '../assets/resume-raphael-simon.pdf';
 
 function Left() {
 
