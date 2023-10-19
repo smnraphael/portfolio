@@ -69,7 +69,7 @@ function WorkHistory() {
             Assistant Project Manager • <a id="shadow" className="external-link" href="https://www.la-francaise.com/en/" target="_blank" rel="noopener noreferrer">Groupe La Française</a>
           </p>
           <p className="date">
-            August 2023 - Present
+            January 2020 - August 2020
           </p>
           <div className="text">
             <p>
