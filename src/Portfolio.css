@@ -1,0 +1,94 @@
+h1 {
+    font-size: 48px;
+    font-weight: 800;
+    text-shadow: 0px 0px 25px rgba(0, 0, 0, 0.1);
+    text-wrap: wrap;
+    margin-bottom: 50px;
+}
+
+.nav {
+    margin-bottom: 150px;
+}
+
+.nav-link {
+    color: black;
+    font-size: 14px;
+    font-weight: 400;
+    padding-left: 0;
+    transition: text-shadow 0.5s ease;
+    margin-bottom: -5px;
+    width: 50%;
+}
+
+.nav-link:hover {
+    color: #333333;
+    text-shadow: 0px 0px 25px rgba(0, 0, 0, 0.5);
+    transition: text-shadow 0.5s ease;
+}
+
+.icon {
+    height: 40px;
+    width: 40px;
+    margin-right: 25px;
+}
+
+.icon-small {
+    height: 25px;
+    width: 25px;
+    margin-left: 10px;
+    margin-bottom: 5px;
+}
+
+.about,
+.work-history,
+.education,
+.certifications {
+    margin-bottom: 150px;
+}
+
+.section {
+    margin-bottom: 25px;
+}
+
+.about-text {
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+.title {
+    font-size: 20px;
+    font-weight: 800;
+    margin-bottom: 5px;
+}
+
+.date {
+    font-size: 12px;
+    margin-bottom: 5px;
+}
+
+.diploma {
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+
+.text {
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+p {
+    margin-bottom: 2px;
+}
+
+.btn {
+    background-color: white !important;
+    color: black !important;
+    border: 1px solid white !important;
+    opacity: 1 !important;
+    border-radius: 20px;
+    padding: 4px 15px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
