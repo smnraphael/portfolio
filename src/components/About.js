@@ -4,9 +4,6 @@ function About() {
   return (
     <div id="about" className="about">
         <p className="about-text">
-        Future student at the Ironhack bootcamp, looking for an apprenticeship as a Full-Stack Developer in February 2024.
-        </p>
-        <p className="about-text">
         I have Experience as Web Developer, Business Analyst, QA Tester and Project Manager.
         </p>
         <p className="about-text">
