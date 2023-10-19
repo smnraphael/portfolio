@@ -4,6 +4,8 @@ function WorkHistory() {
   return (
     <div id="work-history" className="work-history">
 
+      <p className="hidden-title">WORK HISTORY</p>
+
         <div className="section">
           <p className="title">
             Web Developer • Kenja K.K.
@@ -19,11 +21,11 @@ function WorkHistory() {
                 - Identifying, analyzing, and resolving bugs and issues, ensuring optimal performance and user experience
             </p>
           </div>
-          <button className="btn btn-sm disabled">HTML</button>
-          <button className="btn btn-sm">CSS</button>
-          <button className="btn btn-sm">JavaScript</button>
-          <button className="btn btn-sm">React</button>
-          <button className="btn btn-sm">PHP</button>
+          <button className="btn disabled">HTML</button>
+          <button className="btn disabled">CSS</button>
+          <button className="btn disabled">JavaScript</button>
+          <button className="btn disabled">React</button>
+          <button className="btn disabled">PHP</button>
         </div>
 
         <div className="section">
@@ -53,13 +55,13 @@ function WorkHistory() {
               - Completed in-depth testing on Web, Android and iOS mobile devices
             </p>
           </div>
-          <button className="btn btn-sm disabled">Business Analysis</button>
-          <button className="btn btn-sm">Requirements Gathering</button>
-          <button className="btn btn-sm">Technical Documentation</button>
-          <button className="btn btn-sm">Figma Mockups</button>
-          <button className="btn btn-sm">QA Testing</button>
-          <button className="btn btn-sm">Test Automation</button>
-          <button className="btn btn-sm">Playwright</button>
+          <button className="btn disabled">Business Analysis</button>
+          <button className="btn disabled">Requirements Gathering</button>
+          <button className="btn disabled">Technical Documentation</button>
+          <button className="btn disabled">Figma Mockups</button>
+          <button className="btn disabled">QA Testing</button>
+          <button className="btn disabled">Test Automation</button>
+          <button className="btn disabled">Playwright</button>
         </div>
 
         <div className="section">
@@ -77,10 +79,10 @@ function WorkHistory() {
               - Planning and team coordination (20+ people including fund managers, asset managers, accountants, lawyers)
             </p>
           </div>
-          <button className="btn btn-sm disabled">Project Management</button>
-          <button className="btn btn-sm">Team Coordination</button>
-          <button className="btn btn-sm">Communication</button>
-          <button className="btn btn-sm">Time Management</button>
+          <button className="btn disabled">Project Management</button>
+          <button className="btn disabled">Team Coordination</button>
+          <button className="btn disabled">Communication</button>
+          <button className="btn disabled">Time Management</button>
         </div>
 
     </div>

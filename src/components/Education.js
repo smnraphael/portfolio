@@ -4,6 +4,8 @@ function Education() {
   return (
   <div id="education" className="education">
 
+    <p className="hidden-title">EDUCATION</p>
+
     <div className="section">
       <p className="title">
         Nagoya University of Commerce & Business
@@ -36,7 +38,7 @@ function Education() {
       </p>
       <div className="text">
         <p>
-            - International double degree with NEOMA Business School
+            - International double degree with Nagoya University of Commerce & Business
         </p>
       </div>
     </div>

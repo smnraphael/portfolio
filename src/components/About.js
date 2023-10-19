@@ -3,6 +3,7 @@ import React from 'react';
 function About() {
   return (
     <div id="about" className="about">
+        <p className="hidden-title">ABOUT</p>
         <p className="about-text">
           I have Experience as Web Developer, Business Analyst, QA Tester and Project Manager.
         </p>

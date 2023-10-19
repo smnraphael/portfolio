@@ -5,9 +5,26 @@ import email from '../assets/email.svg';
 import resume from '../assets/CV_RaphaelSimon.pdf';
 
 function Left() {
+
+    const messageArray = ["Web Developer"]
+    let textPosition = 0;
+    const speed = 100;
+
+    let typewriter = () => {
+        document.querySelector("#message").innerHTML = messageArray[0].substring(0, textPosition) + "<span>|</span>";
+        if (textPosition++ != messageArray[0].length) {
+            setTimeout(typewriter, speed);
+        }
+    }
+
+    window.addEventListener("load", typewriter);
+
     return (
-        <div className="col-4 left">
+        <div className="col-lg-4 col-md-12 left">
             <h1>Raphaël SIMON</h1>
+            <div className="space">
+                <p id="message" className="message"></p>
+            </div>
             <nav class="nav flex-column">
                 <a class="nav-link" href="#about">ABOUT</a>
                 <a class="nav-link" href="#work-history">WORK HISTORY</a>

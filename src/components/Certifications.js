@@ -4,6 +4,8 @@ function Certifications() {
   return (
     <div id="certifications" className="certifications">
 
+      <p className="hidden-title">CERTIFICATIONS</p>
+
       <div className="section">
         <p className="diploma">
             Full-Stack Engineer Career Path • Codecademy
