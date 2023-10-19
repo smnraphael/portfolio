@@ -67,9 +67,9 @@ function Projects() {
             <button className="btn btn-sm disabled">Python</button>
             <button className="btn btn-sm disabled">Flask</button>
             <button className="btn btn-sm disabled">SQL</button>
+            <button className="btn btn-sm disabled">JavaScript</button>
             <button className="btn btn-sm disabled">HTML</button>
             <button className="btn btn-sm disabled">CSS</button>
-            <button className="btn btn-sm disabled">JavaScript</button>
           </div>
       </div>
 
