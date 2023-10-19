@@ -12,7 +12,7 @@ function Left() {
 
     let typewriter = () => {
         document.querySelector("#message").innerHTML = messageArray[0].substring(0, textPosition) + "<span>|</span>";
-        if (textPosition++ != messageArray[0].length) {
+        if (textPosition++ !== messageArray[0].length) {
             setTimeout(typewriter, speed);
         }
     }
