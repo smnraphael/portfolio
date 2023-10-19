@@ -9,8 +9,7 @@ function Portfolio() {
       <div className="row">
         <Left />
         <Right />
-      </div>
-          
+      </div>   
     </div>
   );
 }

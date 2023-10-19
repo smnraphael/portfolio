@@ -7,7 +7,7 @@ import Projects from './Projects';
 
 function Right() {
   return (
-    <div className="col-6 right overflow-auto">
+    <div className="col-6 right">
         <About />
         <WorkHistory />
         <Education />

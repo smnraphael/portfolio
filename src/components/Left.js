@@ -6,10 +6,8 @@ import resume from '../assets/CV_RaphaelSimon.pdf';
 
 function Left() {
     return (
-        <div className="col-6 left">
-            <div>
-                <h1>Raphaël SIMON</h1>
-            </div>
+        <div className="col-4 left">
+            <h1>Raphaël SIMON</h1>
             <nav class="nav flex-column">
                 <a class="nav-link" href="#about">ABOUT</a>
                 <a class="nav-link" href="#work-history">WORK HISTORY</a>
