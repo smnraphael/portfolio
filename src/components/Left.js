@@ -33,10 +33,16 @@ function Left() {
                 <a id="shadow" class="nav-link link" href="#projects">PROJECTS</a>
                 <a id="shadow" class="nav-link link" href={resumepdf} target="_blank" rel="noopener noreferrer">RESUME</a>
             </nav>
-            <div className="icons">
-                <a href="https://www.linkedin.com/in/simonraphael" target="_blank" rel="noopener noreferrer"><img className="icon" src={linkedin} alt="linkedin" /></a>
-                <a href="https://github.com/smnraphael" target="_blank" rel="noopener noreferrer"><img className="icon" src={github} alt="github" /></a>
+            <div className="icon-container">
+                <div className="icons">
+                    <a href="https://www.linkedin.com/in/simonraphael" target="_blank" rel="noopener noreferrer"><img className="icon" src={linkedin} alt="linkedin" /></a>
+                </div>
+                <div className="icons">
+                    <a href="https://github.com/smnraphael" target="_blank" rel="noopener noreferrer"><img className="icon" src={github} alt="github" /></a>
+                </div>
+                <div className="icons">
                 <a href="mailto:simonraphael@hotmail.fr" target="_blank" rel="noopener noreferrer"><img className="icon" src={email} alt="email" /></a>
+                </div>
             </div>
         </div>
       );
