@@ -21,7 +21,7 @@ function Education() {
           September 2021 - September 2022
         </p>
         <p className="diploma">
-            M.Sc. in Business Administration
+            Master of Science, Business Administration
         </p>
         <div className="text">
           <p>
@@ -48,7 +48,7 @@ function Education() {
           September 2019 - September 2022
         </p>
         <p className="diploma">
-          M.Sc. in Management
+          Master of Science, Management
         </p>
         <div className="text">
           <p>
@@ -96,7 +96,7 @@ function Education() {
           September 2014 - June 2019
         </p>
         <p className="diploma">
-          B.A. in Legal Studies
+          Bachelor of Arts, Legal Studies
         </p>
       </div>
     </a>
