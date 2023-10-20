@@ -33,6 +33,8 @@ function WorkHistory() {
           <button className="btn disabled">JavaScript</button>
           <button className="btn disabled">React</button>
           <button className="btn disabled">PHP</button>
+          <button className="btn disabled">Figma</button>
+          <button className="btn disabled">Slack</button>
         </div>
       </a>
 
@@ -72,10 +74,11 @@ function WorkHistory() {
           <button className="btn disabled">Business Analysis</button>
           <button className="btn disabled">Requirements Gathering</button>
           <button className="btn disabled">Technical Documentation</button>
-          <button className="btn disabled">Figma Mockups</button>
+          <button className="btn disabled">Figma</button>
           <button className="btn disabled">QA Testing</button>
           <button className="btn disabled">Test Automation</button>
           <button className="btn disabled">Playwright</button>
+          <button className="btn disabled">Slack</button>
         </div>
       </a>
 
@@ -104,6 +107,7 @@ function WorkHistory() {
             <button className="btn disabled">Team Coordination</button>
             <button className="btn disabled">Communication</button>
             <button className="btn disabled">Time Management</button>
+            <button className="btn disabled">Microsoft Teams</button>
         </div>
       </a>
 

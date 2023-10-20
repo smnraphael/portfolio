@@ -21,6 +21,7 @@ function Projects() {
             <button className="btn disabled">Bootstrap</button>
             <button className="btn disabled">JavaScript</button>
             <button className="btn disabled">React</button>
+            <button className="btn disabled">Figma</button>
           </div>
         </div>
       </a>
@@ -38,6 +39,7 @@ function Projects() {
             <button className="btn disabled">CSS</button>
             <button className="btn disabled">JavaScript</button>
             <button className="btn disabled">React</button>
+            <button className="btn disabled">Figma</button>
           </div>
         </div>
       </a>
@@ -72,6 +74,7 @@ function Projects() {
             <button className="btn disabled">Python</button>
             <button className="btn disabled">Flask</button>
             <button className="btn disabled">SQLite</button>
+            <button className="btn disabled">Figma</button>
           </div>
         </div>
       </a>
