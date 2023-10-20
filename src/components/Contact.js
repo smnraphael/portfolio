@@ -23,10 +23,6 @@ function Contact() {
                     <div className="icons-hidden">
                         <a href={resumepdf} target='_blank' rel="noopener noreferrer"><img className="icon-hidden" src={resume} alt="resume" /></a>
                     </div>
-                    
-                    
-                    
-                    
                 </div>
             </div>
         </div>

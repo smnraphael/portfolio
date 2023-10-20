@@ -2,6 +2,7 @@ import React from 'react';
 import prompt from '../assets/prompt.pdf';
 import harvard from '../assets/harvard.pdf';
 import google from '../assets/google.pdf';
+import chain from '../assets/chain.png';
 
 function Certifications() {
   return (
@@ -9,41 +10,62 @@ function Certifications() {
 
       <p className="hidden-title">CERTIFICATIONS</p>
 
-      <div className="section">
+      <div className="section section-five">
         <p className="diploma">
-            Full-Stack Engineer Career Path • Codecademy
+          Full-Stack Engineer Career Path • Codecademy
         </p>
         <p className="date">
-            In Progress
+          In Progress
         </p>
       </div>
 
-      <div className="section">
-        <p className="diploma">
-          <a id="shadow" className="external-link" href={prompt} target="_blank" rel="noopener noreferrer">Prompt Engineering for ChatGPT</a> • Vanderbilt University
-        </p>
-        <p className="date">
-            October 2023
-        </p>
-      </div>
+      <a className="external-link" href={prompt} target="_blank" rel="noopener noreferrer">
+        <div className="section section-active section-five">
+          <div className="d-flex justify-content-between">
+            <p className="diploma">
+              Prompt Engineering for ChatGPT • Vanderbilt University
+            </p>
+              <div className="icon-small-container">
+                <img className="icon-small" src={chain} alt="github" />
+              </div>
+          </div>
+            <p className="date">
+              October 2023
+            </p>
+        </div>
+      </a>
 
-      <div className="section">
-        <p className="diploma">
-          <a id="shadow" className="external-link" href={harvard} target="_blank" rel="noopener noreferrer">CS50x: Introduction to Computer Science</a> • Harvard University
-        </p>
-        <p className="date">
+      <a className="external-link" href={harvard} target="_blank" rel="noopener noreferrer">
+        <div className="section section-active section-five">
+          <div className="d-flex justify-content-between">
+            <p className="diploma">
+              CS50x: Introduction to Computer Science • Harvard University
+            </p>
+            <div className="icon-small-container">
+              <img className="icon-small" src={chain} alt="github" />
+            </div>
+          </div>
+          <p className="date">
             August 2023
-        </p>
-      </div>
+          </p>
+        </div>
+      </a>
 
-      <div className="section">
-        <p className="diploma">
-          <a id="shadow" className="external-link" href={google} target="_blank" rel="noopener noreferrer">Google Data Analytics Professional Certificate</a> • Google
-        </p>
-        <p className="date">
+      <a className="external-link" href={google} target="_blank" rel="noopener noreferrer">
+        <div className="section section-active section-five">
+          <div className="d-flex justify-content-between">
+            <p className="diploma">
+              Google Data Analytics Professional Certificate • Google
+            </p>
+            <div className="icon-small-container">
+              <img className="icon-small" src={chain} alt="github" />
+            </div>
+          </div>
+          <p className="date">
             December 2021
-        </p>
-      </div>
+          </p>
+        </div>
+      </a>
         
     </div>
   );

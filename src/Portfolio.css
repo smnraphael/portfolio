@@ -50,6 +50,14 @@ nav a {
 
 .link {
     margin: 5px 0;
+    color: rgb(50, 50, 50);
+    transition: text-shadow 0.3s ease-in-out;
+}
+
+.link:hover {
+    color: black;
+    text-shadow: 0px 0px 25px rgba(0, 0, 0, 0.5);
+    transition: text-shadow 0.3s ease-in-out;
 }
 
 .external-link {
@@ -87,12 +95,13 @@ nav a {
 
 .icon-small-container {
     margin-left: 10px;
+    margin-right: 5px;
     margin-bottom: 5px;
 }
 
 .icon-small {
-    height: 20px;
-    width: 20px;
+    height: 16px;
+    width: 16px;
     z-index: -1;
 }
 
@@ -113,6 +122,30 @@ nav a {
 
 .section {
     margin-bottom: 25px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0);
+}
+
+.section-active {
+    transition: margin 0.3s ease-in-out, border 0.3s ease-in-out, box-shadow 0.3s ease-in-out, background-color 0.3s ease-in-out;
+}
+
+.section-active:hover {
+    border: 1px solid rgb(200, 200, 200);
+    background-color: rgba(200, 200, 200, 0.2);
+    margin-top: -2px;
+    margin-bottom: 27px;
+    box-shadow: 2px 5px 5px rgba(175, 175, 175, 0.1);
+    transition: margin 0.3s ease-in-out, border 0.3s ease-in-out, box-shadow 0.3s ease-in-out, background-color 0.3s ease-in-out;
+}
+
+.section-button {
+    padding-bottom: 0px;
+}
+
+.section-five {
+    padding-bottom: 5px;
 }
 
 .about-text {
@@ -143,8 +176,17 @@ nav a {
     margin-bottom: 10px;
 }
 
+a {
+    text-decoration: none;
+}
+
 p {
     margin-bottom: 2px;
+    color: #323232;
+}
+
+p:hover {
+    color: black;
 }
 
 .btn {

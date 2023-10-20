@@ -1,4 +1,5 @@
 import React from 'react';
+import chain from '../assets/chain.png';
 
 function WorkHistory() {
   return (
@@ -6,19 +7,25 @@ function WorkHistory() {
 
       <p className="hidden-title">WORK HISTORY</p>
 
-        <div className="section">
-          <p className="title">
-            Web Developer • <a id="shadow" className="external-link" href="https://kenja.com" target="_blank" rel="noopener noreferrer">Kenja K.K.</a>
-          </p>
+      <a className="external-link" href="https://kenja.com" target="_blank" rel="noopener noreferrer">
+        <div className="section section-active section-button">
+          <div className="d-flex justify-content-between">
+            <p className="title">
+              Web Developer • Kenja K.K.
+            </p>
+            <div className="icon-small-container">
+              <img className="icon-small" src={chain} alt="github" />
+            </div>
+          </div>
           <p className="date">
             August 2023 - Present
           </p>
           <div className="text">
             <p>
-                - Participating in the development of microservices for Kenja Rooms
+              - Participating in the development of microservices for Kenja Rooms
             </p>
             <p>
-                - Identifying, analyzing, and resolving bugs and issues, ensuring optimal performance and user experience
+              - Identifying, analyzing, and resolving bugs and issues, ensuring optimal performance and user experience
             </p>
           </div>
           <button className="btn disabled">HTML</button>
@@ -27,11 +34,18 @@ function WorkHistory() {
           <button className="btn disabled">React</button>
           <button className="btn disabled">PHP</button>
         </div>
+      </a>
 
-        <div className="section">
-          <p className="title">
-            IT Business Analyst | QA Tester • <a id="shadow" className="external-link" href="https://kenja.com" target="_blank" rel="noopener noreferrer">Kenja K.K.</a>
-          </p>
+      <a className="external-link" href="https://kenja.com" target="_blank" rel="noopener noreferrer">
+        <div className="section section-active section-button">
+          <div className="d-flex justify-content-between">
+            <p className="title">
+              IT Business Analyst & QA Tester • Kenja K.K.
+            </p>
+            <div className="icon-small-container">
+              <img className="icon-small" src={chain} alt="github" />
+            </div>
+          </div>
           <p className="date">
             September 2022 - August 2023
           </p>
@@ -63,27 +77,35 @@ function WorkHistory() {
           <button className="btn disabled">Test Automation</button>
           <button className="btn disabled">Playwright</button>
         </div>
+      </a>
 
-        <div className="section">
-          <p className="title">
-            Assistant Project Manager • <a id="shadow" className="external-link" href="https://www.la-francaise.com/en/" target="_blank" rel="noopener noreferrer">Groupe La Française</a>
-          </p>
-          <p className="date">
-            January 2020 - August 2020
-          </p>
-          <div className="text">
-            <p>
-                - Produced financial communication materials for “La Française Real Estate Managers” (quarter and annual reports of 21 real estate investment funds, around 100,000 copies)
+      <a className="external-link" href="https://www.la-francaise.com/en/" target="_blank" rel="noopener noreferrer">
+        <div className="section section-active section-button">
+          <div className="d-flex justify-content-between">
+            <p className="title">
+              Assistant Project Manager • Groupe La Française
             </p>
-            <p>
-              - Planning and team coordination (20+ people including fund managers, asset managers, accountants, lawyers)
-            </p>
+            <div className="icon-small-container">
+              <img className="icon-small" src={chain} alt="github" />
+            </div>
           </div>
-          <button className="btn disabled">Project Management</button>
-          <button className="btn disabled">Team Coordination</button>
-          <button className="btn disabled">Communication</button>
-          <button className="btn disabled">Time Management</button>
+            <p className="date">
+              January 2020 - August 2020
+            </p>
+            <div className="text">
+              <p>
+                - Produced financial communication materials for “La Française Real Estate Managers” (quarter and annual reports of 21 real estate investment funds, around 100,000 copies)
+              </p>
+              <p>
+                - Planning and team coordination (20+ people including fund managers, asset managers, accountants, lawyers)
+              </p>
+            </div>
+            <button className="btn disabled">Project Management</button>
+            <button className="btn disabled">Team Coordination</button>
+            <button className="btn disabled">Communication</button>
+            <button className="btn disabled">Time Management</button>
         </div>
+      </a>
 
     </div>
     
