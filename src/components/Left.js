@@ -26,12 +26,12 @@ function Left() {
                 <p id="message" className="message"></p>
             </div>
             <nav class="nav flex-column">
-                <a id="shadow" class="nav-link" href="#about">ABOUT</a>
-                <a id="shadow" class="nav-link" href="#work-history">WORK HISTORY</a>
-                <a id="shadow" class="nav-link" href="#education">EDUCATION</a>
-                <a id="shadow" class="nav-link" href="#certifications">CERTIFICATIONS</a>
-                <a id="shadow" class="nav-link" href="#projects">PROJECTS</a>
-                <a id="shadow" class="nav-link" href={resumepdf} target="_blank" rel="noopener noreferrer">RESUME</a>
+                <a id="shadow" class="nav-link link" href="#about">ABOUT</a>
+                <a id="shadow" class="nav-link link" href="#work-history">WORK HISTORY</a>
+                <a id="shadow" class="nav-link link" href="#education">EDUCATION</a>
+                <a id="shadow" class="nav-link link" href="#certifications">CERTIFICATIONS</a>
+                <a id="shadow" class="nav-link link" href="#projects">PROJECTS</a>
+                <a id="shadow" class="nav-link link" href={resumepdf} target="_blank" rel="noopener noreferrer">RESUME</a>
             </nav>
             <div className="icons">
                 <a href="https://www.linkedin.com/in/simonraphael" target="_blank" rel="noopener noreferrer"><img className="icon" src={linkedin} alt="linkedin" /></a>
