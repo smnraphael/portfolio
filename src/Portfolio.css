@@ -113,6 +113,10 @@ nav a {
     padding-top: 75px;
 }
 
+.about {
+    padding-left: 10px;
+}
+
 .hidden-title {
     display: none;
     font-size: 20px;
