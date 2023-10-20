@@ -25,7 +25,7 @@ function Education() {
         </p>
         <div className="text">
           <p>
-            - #1 Master in Management in Japan
+            - #1 MBA in Japan
           </p>
           <p>
             - International double degree with NEOMA Business School
