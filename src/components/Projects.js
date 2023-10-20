@@ -8,9 +8,11 @@ function Projects() {
       <p className="hidden-title">PROJECTS</p>
 
       <div className="section">
-          <div className="d-flex">
+          <div className="d-flex align-items-center">
             <p className="title">Portfolio</p>
-            <a href="https://github.com/smnraphael/portfolio" target="_blank" rel="noopener noreferrer"><img className="icon-small" src={github} alt="github" /></a>
+            <div className="icon-small-container">
+              <a href="https://github.com/smnraphael/portfolio" target="_blank" rel="noopener noreferrer"><img className="icon-small" src={github} alt="github" /></a>
+            </div>
           </div>
           <div className="skills">
             <button className="btn disabled">HTML</button>
@@ -22,9 +24,11 @@ function Projects() {
       </div>
 
       <div className="section">
-          <div className="d-flex">
+          <div className="d-flex align-items-center">
             <p className="title">Weather App</p>
-            <a href="https://github.com/smnraphael/weather-app" target="_blank" rel="noopener noreferrer"><img className="icon-small" src={github} alt="github" /></a>
+            <div className="icon-small-container">
+              <a href="https://github.com/smnraphael/weather-app" target="_blank" rel="noopener noreferrer"><img className="icon-small" src={github} alt="github" /></a>
+            </div>
           </div>
           <div className="skills">
             <button className="btn disabled">HTML</button>
@@ -35,9 +39,11 @@ function Projects() {
       </div>
 
       <div className="section">
-          <div className="d-flex">
+          <div className="d-flex align-items-center">
             <p className="title">Tic-Tac-Toe</p>
-            <a href="https://github.com/smnraphael/tic-tac-toe" target="_blank" rel="noopener noreferrer"><img className="icon-small" src={github} alt="github" /></a>
+            <div className="icon-small-container">
+              <a href="https://github.com/smnraphael/tic-tac-toe" target="_blank" rel="noopener noreferrer"><img className="icon-small" src={github} alt="github" /></a>
+            </div>
           </div>
           <div className="skills">
             <button className="btn disabled disabled">Python</button>
@@ -45,9 +51,11 @@ function Projects() {
       </div>
 
       <div className="section">
-          <div className="d-flex">
+          <div className="d-flex align-items-center">
             <p className="title">Raphaël in Japan</p>
-            <a href="https://github.com/smnraphael/raphael-in-japan" target="_blank" rel="noopener noreferrer"><img className="icon-small" src={github} alt="github" /></a>
+            <div className="icon-small-container">
+              <a href="https://github.com/smnraphael/raphael-in-japan" target="_blank" rel="noopener noreferrer"><img className="icon-small" src={github} alt="github" /></a>
+            </div>
           </div>
           <div className="skills">
             <button className="btn disabled">HTML</button>
