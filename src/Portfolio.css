@@ -114,7 +114,8 @@ nav a {
 }
 
 .about {
-    padding: 0 10px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 .hidden-title {
