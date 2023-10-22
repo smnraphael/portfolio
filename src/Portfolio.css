@@ -80,6 +80,10 @@ nav a {
     color: black;
 }
 
+.bold {
+    font-weight: 600;
+}
+
 .icon-container {
     display: flex;
 }

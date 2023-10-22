@@ -31,7 +31,7 @@ function Left() {
                 <a class="nav-link link" href="#education">EDUCATION</a>
                 <a class="nav-link link" href="#certifications">CERTIFICATIONS</a>
                 <a class="nav-link link" href="#projects">PROJECTS</a>
-                <a class="nav-link link" href={resumepdf} target="_blank" rel="noopener noreferrer">RESUME</a>
+                <a class="nav-link link bold" href={resumepdf} target="_blank" rel="noopener noreferrer">RESUME</a>
             </nav>
             <div className="icon-container">
                 <div className="icons">
