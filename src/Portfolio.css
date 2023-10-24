@@ -249,6 +249,31 @@ span {
     }
 }
 
+.gradient-text{
+    font-family:"Abril Fatface", sans-serif;
+    background: linear-gradient(to right, crimson, limegreen, indigo);
+    background-size: 200% 200%;
+    animation: rainbow 2s ease-in-out infinite;
+    background-clip: text;
+    -webkit-background-clip:text;
+    color:rgba(0,0,0,0);
+    margin:30vh auto;
+    transition: color .2s ease-in-out;
+    font-weight:900;
+    text-decoration: underline;
+}
+
+.gradient-text:hover{
+    color:rgba(0,0,0,0);
+    text-decoration: none;
+}
+
+@keyframes rainbow { 
+    0%{background-position:left}
+    50%{background-position:right}
+    100%{background-position:left}
+}
+
 
 @media only screen and (max-width: 992px) {
     .navbar {
