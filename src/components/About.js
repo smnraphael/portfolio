@@ -1,12 +1,11 @@
 import React from 'react';
-import ironhack from '../assets/ironhack.pdf';
 
 function About() {
   return (
     <div id="about" className="about">
         <p className="hidden-title">ABOUT</p>
         <p className="about-text">
-          Future student at the <a className="gradient-text" href={ironhack} target='_blank' rel="noopener noreferrer">Ironhack bootcamp</a>, looking for an apprenticeship as a Front-End or Full-Stack Developer in February 2024.
+          Future bootcamp student, looking for an apprenticeship as a Front-End or Full-Stack Developer in January or February 2024.
         </p>
         <p className="about-text">
           I have experience as Web Developer, Business Analyst, QA Tester and Project Manager.
