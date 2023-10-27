@@ -7,6 +7,30 @@ function Education() {
 
     <p className="hidden-title">EDUCATION</p>
 
+    <a className="external-link" href="https://www.lewagon.com" target="_blank" rel="noopener noreferrer">
+      <div className="section section-active section-button section-five">
+        <div className="d-flex justify-content-between">
+          <p className="title">
+            Le Wagon
+          </p>
+          <div className="icon-small-container">
+            <img className="icon-small" src={chain} alt="github" />
+          </div>
+        </div>
+        <p className="date">
+          January 2024 - March 2024
+        </p>
+        <p className="diploma">
+          Bootcamp, Web Development
+        </p>
+        <div className="text">
+          <p>
+            - HTML, CSS, Bootstrap, JavaScript, React, Vue.js, Ruby, Ruby on Rails, SQL, Git, GitHub, Heroku, and more
+          </p>
+        </div>
+      </div>
+    </a>
+
     <a className="external-link" href="https://mba.nucba.ac.jp/en/" target="_blank" rel="noopener noreferrer">
       <div className="section section-active section-button">
         <div className="d-flex justify-content-between">

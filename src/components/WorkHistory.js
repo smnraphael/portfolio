@@ -25,14 +25,16 @@ function WorkHistory() {
               - Participating in the development of microservices for Kenja Rooms
             </p>
             <p>
-              - Identifying, analyzing, and resolving bugs and issues, ensuring optimal performance and user experience
+              - Identifying, analyzing, and resolving bugs and issues, ensuring optimal user experience
+            </p>
+            <p>
+              - Creating Figma mockups
             </p>
           </div>
           <button className="btn disabled">HTML</button>
           <button className="btn disabled">CSS</button>
           <button className="btn disabled">JavaScript</button>
           <button className="btn disabled">React</button>
-          <button className="btn disabled">PHP</button>
           <button className="btn disabled">Figma</button>
           <button className="btn disabled">Slack</button>
         </div>
@@ -53,13 +55,13 @@ function WorkHistory() {
           </p>
           <div className="text">
             <p>
-              - Collecting business requirements from stakeholders and translating them into technical specifications
+              - Collected business requirements from stakeholders and translating them into technical specifications
             </p>
             <p>
-              - Creating detailed documentation including business requirements, functional specifications, process flows, and Figma mockups to serve as a reference for both development team and stakeholders
+              - Created detailed documentation including business requirements, functional specifications, process flows, and Figma mockups to serve as a reference for both development team and stakeholders
             </p>
             <p>
-              - Collaborating with development team to design IT solutions that address business needs
+              - Collaborated with development team to design IT solutions that address business needs
             </p>
             <p>
               - Built automated test scripts with Playwright to handle repetitive software testing work

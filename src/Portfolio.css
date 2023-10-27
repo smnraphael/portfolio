@@ -249,9 +249,10 @@ span {
     }
 }
 
-.gradient-text{
+.gradient-text {
     font-family:"Abril Fatface", sans-serif;
-    background: linear-gradient(to right, crimson, limegreen, indigo);
+    background: linear-gradient(to right, crimson, pink, crimson);
+    font-size: 20px;
     background-size: 200% 200%;
     animation: rainbow 2s ease-in-out infinite;
     background-clip: text;
@@ -263,7 +264,7 @@ span {
     text-decoration: underline;
 }
 
-.gradient-text:hover{
+.gradient-text:hover {
     color:rgba(0,0,0,0);
     text-decoration: none;
 }
