@@ -42,7 +42,7 @@ function Education() {
           </div>
         </div>
         <p className="date">
-          September 2021 - September 2022
+          September 2021 - July 2022
         </p>
         <p className="diploma">
             Master of Science, Business Administration
@@ -69,7 +69,7 @@ function Education() {
           </div>
         </div>
         <p className="date">
-          September 2019 - September 2022
+          September 2019 - July 2022
         </p>
         <p className="diploma">
           Master of Science, Management
