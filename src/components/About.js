@@ -5,7 +5,7 @@ function About() {
     <div id="about" className="about">
         <p className="hidden-title">ABOUT</p>
         <p className="about-text">
-          Student at <a className="gradient-text" href="https://www.lewagon.com" target="_blank" rel="noopener noreferrer">Le Wagon</a> bootcamp, looking for a contrat d'apprentissage as a Front-End or Full-Stack Developer.
+          Student at <a className="gradient-text" href="https://www.ironhack.com" target="_blank" rel="noopener noreferrer">Ironhack</a> bootcamp, looking for a contrat de professionnalisation as a Full-Stack or Front-End Developer.
         </p>
         <p className="about-text">
           I have experience as Web Developer, QA Tester, Business Analyst and Project Manager.

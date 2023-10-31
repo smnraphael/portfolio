@@ -251,7 +251,7 @@ span {
 
 .gradient-text {
     font-family:"Abril Fatface", sans-serif;
-    background: linear-gradient(to right, crimson, pink, crimson);
+    background: linear-gradient(to right, rgb(97, 194, 245), rgb(141, 37, 231), rgb(97, 194, 245));
     font-size: 20px;
     background-size: 200% 200%;
     animation: rainbow 2s ease-in-out infinite;
