@@ -11,7 +11,7 @@ function WorkHistory() {
         <div className="section section-active section-button">
           <div className="d-flex justify-content-between">
             <p className="title">
-              Web Developer • Kenja K.K.
+              Junior Web Developer • Kenja K.K.
             </p>
             <div className="icon-small-container">
               <img className="icon-small" src={chain} alt="github" />

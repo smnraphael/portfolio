@@ -8,7 +8,7 @@ function Left() {
 
     const messageArray = ["Web Developer"]
     let textPosition = 0;
-    const speed = 100;
+    const speed = 90;
 
     let typewriter = () => {
         document.querySelector("#message").innerHTML = messageArray[0].substring(0, textPosition) + "<span>|</span>";

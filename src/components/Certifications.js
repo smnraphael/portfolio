@@ -39,7 +39,7 @@ function Certifications() {
         <div className="section section-active section-five">
           <div className="d-flex justify-content-between">
             <p className="diploma">
-              CS50x: Introduction to Computer Science • Harvard University
+              CS50: Introduction to Computer Science • Harvard University
             </p>
             <div className="icon-small-container">
               <img className="icon-small" src={chain} alt="github" />

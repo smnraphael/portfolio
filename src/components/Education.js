@@ -25,7 +25,7 @@ function Education() {
         </p>
         <div className="text">
           <p>
-            - HTML, CSS, Bootstrap, JavaScript, React, Node.js, Express.js, MongoDB, Git, GitHub, Heroku, and more
+            - HTML, CSS, Bootstrap, JavaScript, React, Node.js, Express.js, MongoDB, Git, GitHub
           </p>
         </div>
       </div>
