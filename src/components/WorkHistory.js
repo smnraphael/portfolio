@@ -36,6 +36,8 @@ function WorkHistory() {
           <button className="btn disabled">JavaScript</button>
           <button className="btn disabled">React</button>
           <button className="btn disabled">Figma</button>
+          <button className="btn disabled">Git</button>
+          <button className="btn disabled">GitHub</button>
           <button className="btn disabled">Slack</button>
         </div>
       </a>
@@ -80,6 +82,8 @@ function WorkHistory() {
           <button className="btn disabled">QA Testing</button>
           <button className="btn disabled">Test Automation</button>
           <button className="btn disabled">Playwright</button>
+          <button className="btn disabled">Git</button>
+          <button className="btn disabled">GitHub</button>
           <button className="btn disabled">Slack</button>
         </div>
       </a>
