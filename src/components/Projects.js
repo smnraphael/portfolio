@@ -7,6 +7,25 @@ function Projects() {
 
       <p className="hidden-title">PROJECTS</p>
 
+      <a href="https://github.com/smnraphael/not-reddit" target="_blank" rel="noopener noreferrer">
+        <div className="section section-active section-button">
+          <div className="d-flex justify-content-between">
+            <p className="title">NotReddit</p>
+            <div className="icon-small-container">
+              <img className="icon-small" src={chain} alt="github" />
+            </div>
+          </div>
+          <div className="skills">
+            <button className="btn disabled">HTML</button>
+            <button className="btn disabled">CSS</button>
+            <button className="btn disabled">Bootstrap</button>
+            <button className="btn disabled">JavaScript</button>
+            <button className="btn disabled">React</button>
+            <button className="btn disabled">Figma</button>
+          </div>
+        </div>
+      </a>
+
       <a href="https://github.com/smnraphael/portfolio" target="_blank" rel="noopener noreferrer">
         <div className="section section-active section-button">
           <div className="d-flex justify-content-between">
