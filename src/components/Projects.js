@@ -18,8 +18,8 @@ function Projects() {
           <div className="skills">
             <button className="btn disabled">HTML</button>
             <button className="btn disabled">CSS</button>
-            <button className="btn disabled">Bootstrap</button>
             <button className="btn disabled">JavaScript</button>
+            <button className="btn disabled">Bootstrap</button>
             <button className="btn disabled">React</button>
             <button className="btn disabled">Figma</button>
           </div>
@@ -37,8 +37,8 @@ function Projects() {
           <div className="skills">
             <button className="btn disabled">HTML</button>
             <button className="btn disabled">CSS</button>
-            <button className="btn disabled">Bootstrap</button>
             <button className="btn disabled">JavaScript</button>
+            <button className="btn disabled">Bootstrap</button>
             <button className="btn disabled">React</button>
             <button className="btn disabled">Figma</button>
           </div>
@@ -88,8 +88,8 @@ function Projects() {
           <div className="skills">
             <button className="btn disabled">HTML</button>
             <button className="btn disabled">CSS</button>
-            <button className="btn disabled">Bootstrap</button>
             <button className="btn disabled">JavaScript</button>
+            <button className="btn disabled">Bootstrap</button>
             <button className="btn disabled">Python</button>
             <button className="btn disabled">Flask</button>
             <button className="btn disabled">SQLite</button>
@@ -97,21 +97,6 @@ function Projects() {
           </div>
         </div>
       </a>
-
-      <div className="section">
-        <div className="d-flex">
-          <p className="title">CS50x: Introduction to Computer Science</p>
-        </div>
-        <div className="skills">
-          <button className="btn disabled">C</button>
-          <button className="btn disabled">Python</button>
-          <button className="btn disabled">Flask</button>
-          <button className="btn disabled">SQL</button>
-          <button className="btn disabled">JavaScript</button>
-          <button className="btn disabled">HTML</button>
-          <button className="btn disabled">CSS</button>
-        </div>
-      </div>
 
     </div>
   );
