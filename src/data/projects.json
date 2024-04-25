@@ -1,0 +1,71 @@
+[
+  {
+    "title": "ByteHire",
+    "date": "April 2024",
+    "content": "This project is a Full-Stack website created for my final project at Ironhack bootcamp. A CRUD recruitment platform, enabling companies to create accounts, publish job offers, and manage their listings and applications. Applicants can also create profiles, explore job opportunities, apply, and track the status of their applications. Additionally, the website is fully mobile responsive and features a sleek dark mode interface, enhancing user experience across devices.",
+    "stack": [
+      "JavaScript",
+      "TypeScript",
+      "React",
+      "Tailwind CSS",
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+      "Figma"
+    ],
+    "link": {
+      "deployed": "https://smnraphael-bytehire.netlify.app",
+      "github": "https://github.com/smnraphael/ironhack-final-project"
+    }
+  },
+  {
+    "title": "PokémonGet",
+    "date": "April 2024",
+    "content": "In collaboration with Claire and Ivan, we embarked on a Pokémon-themed website project, leveraging the renowned PokeAPI to satisfy nostalgic fans. Our platform offers users the opportunity to explore the Pokédex of the first three generations, create their dream team, and test their Pokémon knowledge with our interactive PokéQuiz feature. With a focus on immersion and engagement, our website promises an exciting journey for Pokémon enthusiasts of all levels.",
+    "stack": ["TypeScript", "React", "Tailwind CSS"],
+    "link": {
+      "deployed": "https://cache-them-all.netlify.app",
+      "github": "https://github.com/claire2d2/poke-project"
+    }
+  },
+  {
+    "title": "Yes we Kanban!",
+    "date": "March 2024",
+    "content": "Teamed up with my friend Claire during my bootcamp, we crafted a dynamic Kanban project using JavaScript, React, and Tailwind CSS. Our standout feature? A slick drag-and-drop interface for seamless task management.",
+    "stack": ["JavaScript", "React", "Tailwind CSS"],
+    "link": {
+      "deployed": "",
+      "github": "https://github.com/smnraphael/kanban-project"
+    }
+  },
+  {
+    "title": "JavaScript Chess Game",
+    "date": "March 2024",
+    "content": "I developed a chess game from scratch using pure vanilla JavaScript, HTML, and CSS. With a focus on DOM manipulation, this project served as a hands-on learning experience. Though unfinished due to time constraints and structural challenges, it provided valuable insights into Front-End development.",
+    "stack": ["JavaScript", "HTML", "CSS"],
+    "link": {
+      "deployed": "https://smnraphael.github.io/js-chess-game",
+      "github": "https://github.com/smnraphael/js-chess-game"
+    }
+  },
+  {
+    "title": "Not-Reddit",
+    "date": "November 2023",
+    "content": "My inaugural React project, Not-Reddit, is a Reddit client developed as part of my Front-End Engineer Career Path certification with Codecademy. Utilizing the Reddit API, I delved into React development, crafting a user-friendly interface to navigate Reddit's vast content landscape.",
+    "stack": ["JavaScript", "React", "CSS"],
+    "link": {
+      "deployed": "https://smnraphael-not-reddit.netlify.app",
+      "github": "https://github.com/smnraphael/not-reddit"
+    }
+  },
+  {
+    "title": "Raphaël in Japan",
+    "date": "August 2023",
+    "content": "For my first Full-Stack endeavor, I undertook the final project of Harvard University's renowned CS50 course. Employing Python Flask for backend development and SQLite for database management, I created a robust web application, marking a significant milestone in my journey as a developer.",
+    "stack": ["JavaScript", "HTML", "Bootstrap", "Python", "Flask", "SQLite"],
+    "link": {
+      "deployed": "",
+      "github": "https://github.com/smnraphael/raphael-in-japan"
+    }
+  }
+]

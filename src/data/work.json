@@ -1,0 +1,26 @@
+[
+  {
+    "position": "Front-End Engineer",
+    "company": "ekino",
+    "date": "02/2024 - Present",
+    "location": "Paris, France",
+    "content": "- In progress...",
+    "link": "https://www.ekino.com"
+  },
+  {
+    "position": "IT Business Analyst | Web Developer",
+    "company": "Kenja K.K.",
+    "date": "09/2022 - 02/2024",
+    "location": "Tokyo, Japan (remote)",
+    "content": "- Business Analysis: collected requirements from stakeholders to translate them in technical specifications ; collaborated with development teams to design IT solutions ; created detailed technical documentation\n- Web Development: created Figma mockups and participated in the development of microservices for Kenja Rooms 4 (JavaScript, React)\n- Testing: documented testing procedures for web and mobile ; built automated tests using Playwright ; handled automated and manual tests",
+    "link": "https://kenja.com"
+  },
+  {
+    "position": "Assistant Project Manager",
+    "company": "Groupe La Française",
+    "date": "01/2020 - 08/2020",
+    "location": "Paris, France",
+    "content": "- Produced financial communication materials for “La Française Real Estate Managers” (quarter and annual reports for 21 real estate investment funds - around 100,000 copies)",
+    "link": "https://www.la-francaise.com/en"
+  }
+]

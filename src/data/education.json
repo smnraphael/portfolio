@@ -1,0 +1,34 @@
+[
+  {
+    "degree": "Bootcamp in Web Development (RNCP 6)",
+    "school": "Ironhack",
+    "date": "2024",
+    "location": "Paris, France",
+    "content": "- Languages: JavaScript, TypeScript\n- Front-End: HTML, CSS, React, Tailwind CSS\n- Back-End: Node.js, Express.js\n- Database: MongoDB\n- Version Control: Git, GitHub",
+    "link": "https://www.ironhack.com/fr-en"
+  },
+  {
+    "degree": "Master in Business Administration",
+    "school": "Nagoya University of Commerce & Business",
+    "date": "2022",
+    "location": "Nagoya, Japan",
+    "content": "- #1 MBA in Japan\n- International Dual Degree with NEOMA Business School",
+    "link": "https://mba.nucba.ac.jp/en/"
+  },
+  {
+    "degree": "M.Sc. in Management",
+    "school": "NEOMA Business School",
+    "date": "2022",
+    "location": "Reims, France",
+    "content": "- #6 MiM in France\n- International Dual Degree with Nagoya University of Commerce & Business",
+    "link": "https://neoma-bs.com"
+  },
+  {
+    "degree": "B.A. in Legal Studies",
+    "school": "Université Bretagne Sud",
+    "date": "2019",
+    "location": "Vannes, France",
+    "content": "",
+    "link": "https://www.univ-ubs.fr/en/index.html"
+  }
+]

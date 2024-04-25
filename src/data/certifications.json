@@ -1,0 +1,20 @@
+[
+  {
+    "course": "Front-End Engineer Career Path",
+    "school": "Codecademy",
+    "date": "2023",
+    "link": "https://www.codecademy.com/profiles/smnraphael/certificates/2682884a0719474f96407efe432fdd87"
+  },
+  {
+    "course": "CS50: Introduction to Computer Science",
+    "school": "Harvard University",
+    "date": "2023",
+    "link": "https://certificates.cs50.io/921e2d23-86ba-432c-a4d8-b33fdce5a225.pdf?size=letter"
+  },
+  {
+    "course": "Google Data Analytics Professional Certificate",
+    "school": "Google",
+    "date": "2021",
+    "link": "https://www.coursera.org/account/accomplishments/professional-cert/5M3DWF27VWD3"
+  }
+]
