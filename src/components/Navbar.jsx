@@ -39,7 +39,7 @@ function Navbar() {
           <a href="#certifications">Certifications</a>
         </li>
         <li>
-          <a href={resume} target="_blank">
+          <a href={resume} target="_blank" className="font-semibold">
             Resume
           </a>
         </li>
