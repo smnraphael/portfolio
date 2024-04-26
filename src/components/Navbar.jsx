@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { GiHamburgerMenu } from "react-icons/gi";
-import resume from "../assets/resumepdf.pdf";
+import resume from "../assets/resume.pdf";
 
 function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
