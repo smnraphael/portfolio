@@ -14,12 +14,12 @@ function ProjectCard({ title, date, content, stack, link }) {
               {link.deployed !== "" ? (
                 <FaLink
                   onClick={() => window.open(link.deployed, "_blank")}
-                  className="cursor-pointer dark:text-white"
+                  className="cursor-pointer text-purple-700 dark:text-lime-400"
                 />
               ) : null}
               <FaGithub
                 onClick={() => window.open(link.github, "_blank")}
-                className="cursor-pointer dark:text-white"
+                className="cursor-pointer text-purple-700 dark:text-lime-400"
               />
             </div>
           </div>
@@ -32,7 +32,7 @@ function ProjectCard({ title, date, content, stack, link }) {
           {stack.map((techno, index) => (
             <p
               key={index}
-              className="px-2 text-sm text-black bg-blue-100 dark:text-white dark:bg-blue-600 rounded-lg"
+              className="px-2 text-sm text-black dark:text-white bg-purple-300 dark:bg-lime-700 rounded-lg"
             >
               {techno}
             </p>

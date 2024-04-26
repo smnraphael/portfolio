@@ -10,8 +10,8 @@ function Education() {
       id="education"
       className="flex flex-col justify-center items-start gap-16 py-24 px-12 sm:px-16 md:px-24 lg:px-36"
     >
-      <h1 className="text-3xl sm:text-4xl md:text-5xl font-semibold dark:text-gray-200">
-        Education
+      <h1 className="text-3xl sm:text-4xl md:text-5xl font-semibold text-purple-700 dark:text-lime-400">
+        ~/Education
       </h1>
       <div className="md:px-16">
         <ol className="relative border-s border-gray-200 dark:border-gray-700">

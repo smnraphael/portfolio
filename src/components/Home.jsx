@@ -27,7 +27,9 @@ function Home() {
           >
             <h1>Hi there 👋</h1>
             <h1>I'm Raphaël,</h1>
-            <h1>Front-End Engineer</h1>
+            <h1 className="text-purple-700 dark:text-lime-400">
+              Front-End Engineer
+            </h1>
           </div>
           <FaArrowDown
             onClick={scrollToProjects}

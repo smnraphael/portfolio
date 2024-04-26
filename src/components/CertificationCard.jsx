@@ -9,7 +9,7 @@ function CertificationCard({ course, school, date, link }) {
         <a
           href={link}
           target="_blank"
-          className="text-sm text-blue-500 hover:underline"
+          className="text-sm text-purple-700 dark:text-lime-400 hover:underline"
         >
           View certifcate
         </a>

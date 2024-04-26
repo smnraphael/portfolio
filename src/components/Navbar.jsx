@@ -48,7 +48,7 @@ function Navbar() {
         <div className="relative inline-block text-left z-50">
           <GiHamburgerMenu
             onClick={openMenu}
-            className="cursor-pointer text-2xl"
+            className="cursor-pointer text-2xl text-purple-700 dark:text-lime-400"
           />
           {isOpen && (
             <div className="absolute right-0 mt-10 w-48 bg-white border border-gray-200 rounded-md shadow-lg dark:bg-gray-800 dark:border-gray-600">
