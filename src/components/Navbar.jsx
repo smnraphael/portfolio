@@ -39,7 +39,11 @@ function Navbar() {
           <a href="#certifications">Certifications</a>
         </li>
         <li>
-          <a href={resume} target="_blank" className="font-semibold">
+          <a
+            href={resume}
+            target="_blank"
+            className="font-semibold text-purple-700 dark:text-lime-400"
+          >
             Resume
           </a>
         </li>
@@ -84,7 +88,7 @@ function Navbar() {
                 <a
                   href={resume}
                   target="_blank"
-                  className="block cursor-pointer px-4 py-2 text-md font-semibold text-gray-700 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-gray-700 dark:hover:text-white"
+                  className="block cursor-pointer px-4 py-2 text-md font-semibold text-purple-700 hover:bg-gray-100 hover:text-gray-900 dark:text-lime-400 dark:hover:bg-gray-700 dark:hover:text-white"
                 >
                   Resume
                 </a>

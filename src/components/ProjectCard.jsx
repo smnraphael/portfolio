@@ -6,8 +6,8 @@ function ProjectCard({ title, date, content, stack, link }) {
     <div className="max-w-sm p-6 bg-white border border-stone-200 rounded-lg dark:bg-gray-800 dark:border-gray-700">
       <div className="flex flex-col justify-between h-full">
         <div>
-          <div className="flex flex-wrap items-center justify-between gap-2">
-            <p className="text-2xl font-bold mb-1 text-gray-900 dark:text-white">
+          <div className="flex flex-wrap items-center justify-between gap-2 mb-2">
+            <p className="text-2xl font-bold text-gray-900 dark:text-white">
               {title}
             </p>
             <div className="flex gap-2">
@@ -32,7 +32,7 @@ function ProjectCard({ title, date, content, stack, link }) {
           {stack.map((techno, index) => (
             <p
               key={index}
-              className="px-2 text-sm text-black dark:text-white bg-purple-300 dark:bg-lime-700 rounded-lg"
+              className="px-2 text-sm text-black dark:text-white bg-purple-300 dark:bg-lime-600 rounded-lg"
             >
               {techno}
             </p>
