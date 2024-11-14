@@ -4,17 +4,17 @@
     "date": "April 2024 - present",
     "content": "During my time working at Ekino, I redesigned the online booking websites for Volkswagen, Škoda, Seat, and Cupra dealerships, using Next.js (React + TypeScript) within a monorepo to manage four distinct brand websites simultaneously. The project involved creating modular components with styled-components and Storybook, and developing 50% of the pages under tight deadlines. Key integrations included the Google Maps API for interactive dealership search, complex API queries with custom routing based on API responses, and analytics tracking through Google Tag Manager and Adobe Analytics for detailed user insights. Full mobile responsiveness was implemented, alongside the creation of dynamic email templates in MJML",
     "images": [
-      "src/assets/images/overhaul-1.png",
-      "src/assets/images/overhaul-4.png",
-      "src/assets/images/overhaul-5.png",
-      "src/assets/images/overhaul-6.png",
-      "src/assets/images/overhaul-7.png",
-      "src/assets/images/overhaul-8.png",
-      "src/assets/images/overhaul-9.png",
-      "src/assets/images/overhaul-10.png",
-      "src/assets/images/overhaul-11.png",
-      "src/assets/images/overhaul-2.png",
-      "src/assets/images/overhaul-3.png"
+      "/overhaul-1.png",
+      "/overhaul-4.png",
+      "/overhaul-5.png",
+      "/overhaul-6.png",
+      "/overhaul-7.png",
+      "/overhaul-8.png",
+      "/overhaul-9.png",
+      "/overhaul-10.png",
+      "/overhaul-11.png",
+      "/overhaul-2.png",
+      "/overhaul-3.png"
     ],
     "stack": [
       "TypeScript",
@@ -37,11 +37,11 @@
     "date": "September 2024 - October 2024",
     "content": "This project is a secure, user-friendly budget-tracker app designed for easy expense tracking with a sleek, modern interface. Key features include encrypted data privacy, fast performance on desktop and mobile via Next.js, and robust database management with Prisma. Clerk ensures secure authentication, while shadcn/ui provides a polished design. The codebase is maintained with Husky pre-commit hooks, commitlint, and Prettier, and quality is assured through Storybook and GitHub CI. The app is deployed on Vercel for seamless access.",
     "images": [
-      "src/assets/images/budget-tracker-1.png",
-      "src/assets/images/budget-tracker-2.png",
-      "src/assets/images/budget-tracker-3.png",
-      "src/assets/images/budget-tracker-4.png",
-      "src/assets/images/budget-tracker-5.png"
+      "/budget-tracker-1.png",
+      "/budget-tracker-2.png",
+      "/budget-tracker-3.png",
+      "/budget-tracker-4.png",
+      "/budget-tracker-5.png"
     ],
     "stack": [
       "TypeScript",
@@ -65,14 +65,14 @@
     "date": "April 2024",
     "content": "This project is a Full-Stack website created for my final project at Ironhack bootcamp. A CRUD recruitment platform, enabling companies to create accounts, publish job offers, and manage their listings and applications. Applicants can also create profiles, explore job opportunities, apply, and track the status of their applications. Additionally, the website is fully mobile responsive and features a sleek dark mode interface, enhancing user experience across devices.",
     "images": [
-      "src/assets/images/bytehire-1.png",
-      "src/assets/images/bytehire-2.png",
-      "src/assets/images/bytehire-3.png",
-      "src/assets/images/bytehire-4.png",
-      "src/assets/images/bytehire-5.png",
-      "src/assets/images/bytehire-6.png",
-      "src/assets/images/bytehire-7.png",
-      "src/assets/images/bytehire-8.png"
+      "/bytehire-1.png",
+      "/bytehire-2.png",
+      "/bytehire-3.png",
+      "/bytehire-4.png",
+      "/bytehire-5.png",
+      "/bytehire-6.png",
+      "/bytehire-7.png",
+      "/bytehire-8.png"
     ],
     "stack": [
       "JavaScript",
@@ -93,7 +93,7 @@
     "title": "PokémonGet",
     "date": "April 2024",
     "content": "In collaboration with Claire and Ivan, we embarked on a Pokémon-themed website project, leveraging the renowned PokeAPI to satisfy nostalgic fans. Our platform offers users the opportunity to explore the Pokédex of the first three generations, create their dream team, and test their Pokémon knowledge with our interactive PokéQuiz feature. With a focus on immersion and engagement, our website promises an exciting journey for Pokémon enthusiasts of all levels.",
-    "images": ["src/assets/images/pokemonget-1.png"],
+    "images": ["/pokemonget-1.png"],
     "stack": ["TypeScript", "React", "Tailwind CSS"],
     "link": {
       "deployed": "https://cache-them-all.netlify.app",
@@ -115,7 +115,7 @@
     "title": "JavaScript Chess Game",
     "date": "March 2024",
     "content": "I developed a chess game from scratch using pure vanilla JavaScript, HTML, and CSS. With a focus on DOM manipulation, this project served as a hands-on learning experience. Though unfinished due to time constraints and structural challenges, it provided valuable insights into Front-End development.",
-    "images": ["src/assets/images/chess-1.png"],
+    "images": ["/chess-1.png"],
     "stack": ["JavaScript", "HTML", "CSS"],
     "link": {
       "deployed": "https://smnraphael.github.io/js-chess-game",
@@ -126,7 +126,7 @@
     "title": "Not-Reddit",
     "date": "November 2023",
     "content": "My inaugural React project, Not-Reddit, is a Reddit client developed as part of my Front-End Engineer Career Path certification with Codecademy. Utilizing the Reddit API, I delved into React development, crafting a user-friendly interface to navigate Reddit's vast content landscape.",
-    "images": ["src/assets/images/not-reddit-1.png"],
+    "images": ["/not-reddit-1.png"],
     "stack": ["JavaScript", "React", "CSS"],
     "link": {
       "deployed": "https://smnraphael-not-reddit.netlify.app",
@@ -137,12 +137,7 @@
     "title": "Raphaël in Japan",
     "date": "August 2023",
     "content": "For my first Full-Stack endeavor, I undertook the final project of Harvard University's renowned CS50 course. Employing Python Flask for backend development and SQLite for database management, I created a robust web application, marking a significant milestone in my journey as a developer.",
-    "images": [
-      "src/assets/images/japan-1.png",
-      "src/assets/images/japan-2.png",
-      "src/assets/images/japan-3.png",
-      "src/assets/images/japan-4.png"
-    ],
+    "images": ["/japan-1.png", "/japan-2.png", "/japan-3.png", "/japan-4.png"],
     "stack": ["JavaScript", "HTML", "Bootstrap", "Python", "Flask", "SQLite"],
     "link": {
       "deployed": "",
