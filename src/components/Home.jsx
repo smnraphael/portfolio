@@ -39,8 +39,8 @@ function Home() {
       </section>
       <Projects />
       <Work />
-      <Education />
       <Certifications />
+      <Education />
     </div>
   );
 }

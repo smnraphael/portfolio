@@ -1,6 +1,6 @@
 [
   {
-    "degree": "Bootcamp in Web Development (RNCP 6)",
+    "degree": "Bootcamp in Web Development (RNCP 6 / Bachelor)",
     "school": "Ironhack",
     "date": "2024",
     "location": "Paris, France",
@@ -22,6 +22,14 @@
     "location": "Reims, France",
     "content": "- #6 MiM in France\n- International Dual Degree with Nagoya University of Commerce & Business",
     "link": "https://neoma-bs.com"
+  },
+  {
+    "degree": "Semester Abroad",
+    "school": "Shanghai University of Finance and Economics",
+    "date": "2021",
+    "location": "Shanghai, China",
+    "content": "- Semester abroad as part of a gap year during my Master's program at NEOMA Business School",
+    "link": "https://english.sufe.edu.cn"
   },
   {
     "degree": "B.A. in Legal Studies",

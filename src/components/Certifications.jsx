@@ -21,7 +21,7 @@ function Certifications() {
                 key={certification.course}
                 course={certification.course}
                 school={certification.school}
-                date={certification.date}
+                time={certification.time}
                 link={certification.link}
               />
             );

@@ -1,0 +1,21 @@
+.card {
+  position: relative;
+  overflow: hidden;
+}
+
+.sliderContainer {
+  overflow: hidden;
+  width: 100%;
+}
+
+.slick-slider {
+  overflow: hidden;
+}
+
+.slick-slide {
+  width: 100% !important;
+}
+
+.slick-track {
+  display: flex;
+}

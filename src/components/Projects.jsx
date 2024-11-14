@@ -14,7 +14,7 @@ function Projects() {
         ~/Projects
       </h1>
       <div className="flex flex-col items-center w-full">
-        <div className="grid grid-cols1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
+        <div className="grid grid-cols1 md:grid-cols-2 gap-5">
           {projects.map((project) => {
             return (
               <ProjectCard
@@ -22,6 +22,7 @@ function Projects() {
                 title={project.title}
                 date={project.date}
                 content={project.content}
+                images={project.images}
                 stack={project.stack}
                 link={project.link}
               />

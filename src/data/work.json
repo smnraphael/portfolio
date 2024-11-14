@@ -4,15 +4,15 @@
     "company": "ekino",
     "date": "02/2024 - Present",
     "location": "Paris, France",
-    "content": "- In progress...",
+    "content": "- Overhauled the online appointment scheduling website for Volkswagen, Cupra, Seat, and Skoda dealerships using Next.js (React + TypeScript) within a monorepo to manage four distinct brand websites at the same time\n- Created modular components with styled-components and Storybook and developed 50% of the project's pages under strict deadlines\n- Integrated Google Maps API for interactive dealer location search functionality\n- Implemented complex API requests and custom routing based on API responses\n- Handled the entire mobile responsiveness of the project\n- Created email templates using MJML\n- Implemented several tracking plans (depending on the brand) with Google Tag Manager and Adobe Analytics",
     "link": "https://www.ekino.com"
   },
   {
-    "position": "IT Business Analyst | Web Developer",
+    "position": "IT Business Analyst & Front-End Developer",
     "company": "Kenja K.K.",
     "date": "09/2022 - 02/2024",
     "location": "Tokyo, Japan (remote)",
-    "content": "- Business Analysis: collected requirements from stakeholders to translate them in technical specifications ; collaborated with development teams to design IT solutions ; created detailed technical documentation\n- Web Development: created Figma mockups and participated in the development of microservices for Kenja Rooms 4 (JavaScript, React)\n- Testing: documented testing procedures for web and mobile ; built automated tests using Playwright ; handled automated and manual tests",
+    "content": "- Acted as the primary Business Analyst on a project funded by the Malaysian government, coordinating closely with stakeholders to ensure alignment and project success\n- Participated in requirements meetings with major clients, including Bank of America and Robert Walters, translating business needs into technical specification\n- Developed multiple micro-services for Kenja Rooms 4 + addressed bugs fixes for Kenja Rooms 3 with React.js\n- Created automated end-to-end tests with Playwright (Python)\n- Designed Figma mockups for Kenja Rooms 4",
     "link": "https://kenja.com"
   },
   {
@@ -20,7 +20,7 @@
     "company": "Groupe La Française",
     "date": "01/2020 - 08/2020",
     "location": "Paris, France",
-    "content": "- Produced financial communication materials for “La Française Real Estate Managers” (quarter and annual reports for 21 real estate investment funds - around 100,000 copies)",
+    "content": "- Managed the production of financial communication materials, including quarterly/annual reports for 21 real estate investment funds (100,000+ copies)\n- Coordinated a cross-functional team of 20+ professionals, ensuring all deadlines were met",
     "link": "https://www.la-francaise.com/en"
   }
 ]

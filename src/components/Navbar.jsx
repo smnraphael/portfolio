@@ -33,10 +33,10 @@ function Navbar() {
           <a href="#work">Work</a>
         </li>
         <li>
-          <a href="#education">Education</a>
+          <a href="#certifications">Certifications</a>
         </li>
         <li>
-          <a href="#certifications">Certifications</a>
+          <a href="#education">Education</a>
         </li>
         <li>
           <a

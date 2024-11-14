@@ -2,19 +2,25 @@
   {
     "course": "Front-End Engineer Career Path",
     "school": "Codecademy",
-    "date": "2023",
+    "time": "115 hours",
     "link": "https://www.codecademy.com/profiles/smnraphael/certificates/2682884a0719474f96407efe432fdd87"
+  },
+  {
+    "course": "Computer Science Career Path",
+    "school": "Codecademy",
+    "time": "75 hours",
+    "link": "https://www.codecademy.com/profiles/smnraphael/certificates/05009c20e9174378acd37e6c2d0fbfc4"
   },
   {
     "course": "CS50: Introduction to Computer Science",
     "school": "Harvard University",
-    "date": "2023",
-    "link": "https://certificates.cs50.io/921e2d23-86ba-432c-a4d8-b33fdce5a225.pdf?size=letter"
+    "time": "11 weeks",
+    "link": "https://certificates.cs50.io/921e2d23-86ba-432c-a4d8-b33fdce5a225.pdf"
   },
   {
     "course": "Google Data Analytics Professional Certificate",
     "school": "Google",
-    "date": "2021",
+    "time": "4 months",
     "link": "https://www.coursera.org/account/accomplishments/professional-cert/5M3DWF27VWD3"
   }
 ]
