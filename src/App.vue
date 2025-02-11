@@ -16,6 +16,9 @@ const Certifications = defineAsyncComponent(() =>
   import("@/components/Certifications.vue")
 );
 const Contact = defineAsyncComponent(() => import("@/components/Contact.vue"));
+const ScrollToTop = defineAsyncComponent(() =>
+  import("@/components/ScrollToTop.vue")
+);
 </script>
 
 <template>
@@ -27,7 +30,6 @@ const Contact = defineAsyncComponent(() => import("@/components/Contact.vue"));
     <Education />
     <Certifications />
     <Contact />
+    <ScrollToTop />
   </div>
 </template>
-
-<style></style>
