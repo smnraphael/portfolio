@@ -15,7 +15,7 @@ console.log(projects);
 
 <template>
   <section
-    class="pb-20 min-h-screen px-12 lg:px-32"
+    class="pb-20 min-h-screen px-8 lg:px-32"
     id="projects"
     data-aos="zoom-in-up"
   >

@@ -4,7 +4,7 @@ import linkedin from "@/assets/linkedin.svg";
 
 <template>
   <section
-    class="pb-20 min-h-screen px-12 lg:px-32 bg-slate-800"
+    class="pb-20 min-h-screen px-8 lg:px-32 bg-slate-800"
     id="contact"
     data-aos="zoom-in-up"
   >
@@ -24,7 +24,7 @@ import linkedin from "@/assets/linkedin.svg";
         </p>
       </div>
 
-      <div class="text-lg bg-slate-900 rounded-2xl p-4 flex flex-col gap-3">
+      <div class="text-lg bg-slate-900 rounded-2xl p-6 flex flex-col gap-3">
         <div class="flex flex-col">
           <p>Email</p>
           <a
