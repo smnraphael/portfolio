@@ -14,7 +14,7 @@ AOS.init();
   >
     <div class="flex justify-center items-center">
       <div
-        class="flex justify-center items-center flex-col md:flex-row gap-16 md:gap-10 px-6 text-center md:text-left"
+        class="flex justify-center items-center flex-col md:flex-row gap-8 md:gap-10 px-6 text-center md:text-left"
       >
         <div
           class="flex justify-center md:w-[50%] flex-col h-full gap-5 md:pl-10 -mt-24 md:-mt-12"
@@ -78,7 +78,7 @@ AOS.init();
           </div>
         </div>
         <div
-          class="flex justify-center md:w-[50%] items-center h-full mt-12 md:-mt-12"
+          class="flex justify-center md:w-[50%] items-center h-full md:-mt-12"
         >
           <div class="rounded-full p-2 border border-orange-400">
             <img
