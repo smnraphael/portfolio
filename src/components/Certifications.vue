@@ -11,8 +11,6 @@ onMounted(async () => {
   const data = await response.json();
   certifications.value = data.certifications;
 });
-
-console.log(certifications);
 </script>
 
 <template>

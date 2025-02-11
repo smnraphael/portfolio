@@ -11,8 +11,6 @@ onMounted(async () => {
   const data = await response.json();
   experiences.value = data.experiences;
 });
-
-console.log(experiences);
 </script>
 
 <template>

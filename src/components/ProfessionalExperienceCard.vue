@@ -22,8 +22,6 @@ defineProps({
           <span class="text-sm"> {{ experience.location }}</span>
         </p>
       </div>
-
-      <!-- Company Link -->
       <div>
         <a
           :href="experience.link"
