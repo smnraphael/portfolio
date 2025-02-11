@@ -46,7 +46,7 @@ import linkedin from "@/assets/linkedin.svg";
         <div class="flex flex-col">
           <p>LinkedIn</p>
           <a
-            href="https://linkedin.com/in/smnraphael"
+            href="https://www.linkedin.com/in/simonraphael/"
             target="_blank"
             class="font-semibold bg-gradient-to-r from-orange-400 to-pink-400 bg-clip-text text-transparent group hover:bg-gradient-to-r hover:from-pink-400 hover:to-orange-400 transition-colors duration-300"
             >linkedin.com/in/smnraphael</a

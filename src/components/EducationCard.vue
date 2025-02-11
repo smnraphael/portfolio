@@ -14,7 +14,7 @@ defineProps({
         <div>
           <div class="flex justify-between">
             <h3 class="text-2xl font-bold">{{ education.degree }}</h3>
-            <p class="text-sm text-gray-500">{{ education.date }}</p>
+            <p class="text-sm text-gray-500 text-right">{{ education.date }}</p>
           </div>
           <p class="text-lg text-gray-400">
             <span class="font-semibold">{{ education.school }}</span> |

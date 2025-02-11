@@ -13,7 +13,7 @@ defineProps({
       <div>
         <div class="flex justify-between">
           <h3 class="text-2xl font-bold">{{ experience.position }}</h3>
-          <p class="text-sm text-gray-500">
+          <p class="text-sm text-gray-500 text-right">
             {{ experience.date }}
           </p>
         </div>

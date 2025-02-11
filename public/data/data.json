@@ -128,7 +128,7 @@
     {
       "title": "ByteHire",
       "date": "04/2024",
-      "content": "I built a full-stack CRUD recruitment platform from scratch for my final Ironhack bootcamp project, using TypeScript, React, and Node.js. The platform allows companies to manage job offers and applications, while applicants can create profiles, apply for jobs, and track their applications. It's fully mobile-responsive with a sleek dark mode interface for an enhanced user experience. The project is deployed in production, with Node.js powering the backend and TypeScript ensuring type safety. React handles the front-end, delivering a dynamic and interactive user interface.",
+      "content": "I built a full-stack CRUD recruitment platform from scratch for my final Ironhack bootcamp project, using TypeScript, React, and Node.js. The platform allows companies to manage job offers and applications, while applicants can create profiles, apply for jobs, and track their applications. It's fully mobile-responsive with a sleek dark mode interface for an enhanced user experience.",
       "stack": [
         "TypeScript",
         "React",
