@@ -1,0 +1,229 @@
+{
+  "certifications": [
+    {
+      "course": "Web Development Bootcamp",
+      "school": "Ironhack",
+      "time": "400 hours"
+    },
+    {
+      "course": "Front-End Engineer Career Path",
+      "school": "Codecademy",
+      "time": "115 hours"
+    },
+    {
+      "course": "Computer Science Career Path",
+      "school": "Codecademy",
+      "time": "75 hours"
+    },
+    {
+      "course": "CS50: Introduction to Computer Science",
+      "school": "Harvard University",
+      "time": "11 weeks"
+    },
+    {
+      "course": "Google Data Analytics Professional Certificate",
+      "school": "Google",
+      "time": "6 months"
+    }
+  ],
+  "education": [
+    {
+      "degree": "M.Sc. in Business Administration",
+      "school": "Nagoya University of Commerce & Business",
+      "date": "2022",
+      "location": "Nagoya, Japan",
+      "content": "- #1 MBA in Japan\n- International double degree with NEOMA Business School",
+      "link": "https://mba.nucba.ac.jp/en/"
+    },
+    {
+      "degree": "M.Sc. in Management",
+      "school": "NEOMA Business School",
+      "date": "2022",
+      "location": "Reims, France",
+      "content": "- #6 MiM in France\n- International double degree with Nagoya University of Commerce & Business",
+      "link": "https://neoma-bs.com"
+    },
+    {
+      "degree": "Semester Abroad",
+      "school": "Shanghai University of Finance and Economics",
+      "date": "2021",
+      "location": "Shanghai, China",
+      "content": "- Semester abroad as part of a gap year during my Master's Degree",
+      "link": "https://english.sufe.edu.cn"
+    },
+    {
+      "degree": "B.A. in Legal Studies",
+      "school": "Université Bretagne Sud",
+      "date": "2019",
+      "location": "Vannes, France",
+      "content": "",
+      "link": "https://www.univ-ubs.fr/en/index.html"
+    }
+  ],
+  "projects": [
+    {
+      "title": "Volkswagen EV fidelity platform",
+      "date": "01/2025 - present",
+      "content": "I built reusable front-end components using React and Sulu CMS for Volkswagen's EV loyalty platform, enhancing the website's functionality and user experience. Additionally, I developed unit tests with Jest, achieving 90% test coverage and significantly reducing production regressions.",
+      "stack": ["TypeScript", "React", "Sulu CMS", "Jest", "Adobe Analytics"],
+      "link": {
+        "github": "",
+        "deployed": "https://www.volkswagen.fr/fr/vw-club.html"
+      },
+      "image": "/images/vw-club.png"
+    },
+    {
+      "title": "Volkswagen dealership websites overhaul",
+      "date": "02/2024 - present",
+      "content": "I completed a full redesign of the Volkswagen, Cupra, Seat, and Škoda booking systems using Next.js within a monorepo, optimizing multi-site management. I developed 50% of the pages under tight deadlines, ensuring an on-time deployment. I also optimized the implementation of the Google Maps API, reducing costs by 5x, and integrated Google Tag Manager and Adobe Analytics, achieving 80% tracking coverage of user interactions. Additionally, I created dynamic email templates in MJML to ensure responsive and consistent communication with users.",
+      "stack": [
+        "TypeScript",
+        "Next.js",
+        "styled-components",
+        "Storybook",
+        "Google Maps API",
+        "Tina CMS",
+        "Cypress",
+        "Google Tag Manager",
+        "Adobe Analytics"
+      ],
+      "link": {
+        "github": "",
+        "deployed": "https://rdv-atelier.volkswagen-entretien.fr"
+      },
+      "image": "/images/overhaul.png"
+    },
+    {
+      "title": "Portfolio",
+      "date": "02/2025",
+      "content": "I built my portfolio using Vue.js to start exploring this framework. It showcases my journey as a front-end developer and highlights some of the projects I've worked on, including building reusable components, optimizing user experiences, and integrating key technologies to enhance functionality and performance.",
+      "stack": ["JavaScript", "Vue.js", "Tailwind CSS"],
+      "link": {
+        "github": "https://github.com/smnraphael/portfolio",
+        "deployed": "https://smnraphael-portfolio.netlify.app"
+      },
+      "image": "/images/portfolio.png"
+    },
+    {
+      "title": "Budget Tracker",
+      "date": "09/2024 - 10/2024",
+      "content": "I built a secure, user-friendly budget tracker app from scratch to deployment using Next.js, Prisma, and Clerk for authentication. It features encrypted data privacy, fast performance, and a polished design with shadcn/ui. The app is maintained with modern tools like Husky, commitlint, and Prettier for high-quality code, and includes CI/CD pipelines for smooth development and deployment. It's deployed on Vercel for seamless access, ensuring a reliable and efficient user experience.",
+      "stack": [
+        "TypeScript",
+        "Next.js",
+        "Tailwind CSS",
+        "shadcn/ui",
+        "Storybook",
+        "Prisma",
+        "Clerk",
+        "GitHub CI",
+        "Husky"
+      ],
+      "link": {
+        "deployed": "https://budget-tracker-amber.vercel.app",
+        "github": "https://github.com/smnraphael/budget-tracker"
+      },
+      "image": "/images/budget-tracker.png"
+    },
+    {
+      "title": "ByteHire",
+      "date": "04/2024",
+      "content": "I built a full-stack CRUD recruitment platform from scratch for my final Ironhack bootcamp project, using TypeScript, React, and Node.js. The platform allows companies to manage job offers and applications, while applicants can create profiles, apply for jobs, and track their applications. It's fully mobile-responsive with a sleek dark mode interface for an enhanced user experience. The project is deployed in production, with Node.js powering the backend and TypeScript ensuring type safety. React handles the front-end, delivering a dynamic and interactive user interface.",
+      "stack": [
+        "TypeScript",
+        "React",
+        "Tailwind CSS",
+        "Node.js",
+        "Express.js",
+        "MongoDB",
+        "Figma"
+      ],
+      "link": {
+        "deployed": "https://smnraphael-bytehire.netlify.app",
+        "github": "https://github.com/smnraphael/ironhack-final-project"
+      },
+      "image": "/images/bytehire.png"
+    },
+    {
+      "title": "PokémonGet",
+      "date": "04/2024",
+      "content": "In collaboration with Claire and Ivan, we created a Pokémon-themed website using the PokeAPI. Users can explore the first three generations of the Pokédex, build their dream team, and test their knowledge with the interactive PokéQuiz. The platform offers an engaging and immersive experience for Pokémon fans.",
+      "stack": ["TypeScript", "React", "Tailwind CSS"],
+      "link": {
+        "deployed": "https://cache-them-all.netlify.app",
+        "github": "https://github.com/claire2d2/poke-project"
+      },
+      "image": "/images/pokemonget.png"
+    },
+    {
+      "title": "Yes we Kanban!",
+      "date": "03/2024",
+      "content": "Teaming up with my friend Claire during bootcamp, we built a dynamic Kanban project using JavaScript, React, and Tailwind CSS. The standout feature is a sleek drag-and-drop interface for smooth task management.",
+      "stack": ["JavaScript", "React", "Tailwind CSS"],
+      "link": {
+        "deployed": "",
+        "github": "https://github.com/smnraphael/kanban-project"
+      },
+      "image": "/images/no-image.jpg"
+    },
+    {
+      "title": "JavaScript Chess Game",
+      "date": "03/2024",
+      "content": "I developed a chess game from scratch using vanilla JavaScript, HTML, and CSS. Focused on DOM manipulation, this project was a valuable learning experience in front-end development, despite being unfinished due to time constraints and structural challenges.",
+      "stack": ["JavaScript", "HTML", "CSS"],
+      "link": {
+        "deployed": "https://smnraphael.github.io/js-chess-game",
+        "github": "https://github.com/smnraphael/js-chess-game"
+      },
+      "image": "/images/chess.png"
+    },
+    {
+      "title": "Not-Reddit",
+      "date": "11/2023",
+      "content": "My first React project, Not-Reddit, is a Reddit client built as part of my Front-End Engineer certification with Codecademy. Using the Reddit API, I explored React development and created a user-friendly interface to navigate Reddit’s content.",
+      "stack": ["JavaScript", "React", "CSS"],
+      "link": {
+        "deployed": "https://smnraphael-not-reddit.netlify.app",
+        "github": "https://github.com/smnraphael/not-reddit"
+      },
+      "image": "/images/not-reddit.png"
+    },
+    {
+      "title": "Raphaël in Japan",
+      "date": "08/2023",
+      "content": "For my first full-stack project, I completed the final project of Harvard's CS50 course. Using Python Flask for the backend and SQLite for database management, I built a robust web application, marking a key milestone in my development journey.",
+      "stack": ["Python", "Flask", "SQLite", "JavaScript", "HTML", "Bootstrap"],
+      "link": {
+        "deployed": "",
+        "github": "https://github.com/smnraphael/raphael-in-japan"
+      },
+      "image": "/images/raphael-in-japan.png"
+    }
+  ],
+  "experiences": [
+    {
+      "position": "Front-End Engineer",
+      "company": "ekino (Havas Group)",
+      "date": "02/2024 - Present",
+      "location": "Paris, France",
+      "content": "- Overhauled the online appointment scheduling website for Volkswagen, Cupra, Seat, and Skoda dealerships using Next.js (React + TypeScript) within a monorepo to manage four distinct brand websites at the same time\n- Created modular components with styled-components and Storybook and developed 50% of the project's pages under strict deadlines\n- Integrated Google Maps API for interactive dealer location search functionality\n- Implemented complex API requests and custom routing based on API responses\n- Handled the entire mobile responsiveness of the project\n- Created email templates using MJML\n- Implemented several tracking plans (depending on the brand) with Google Tag Manager and Adobe Analytics",
+      "link": "https://www.ekino.com"
+    },
+    {
+      "position": "IT Business Analyst & Front-End Developer",
+      "company": "Kenja K.K.",
+      "date": "09/2022 - 02/2024",
+      "location": "Tokyo, Japan (remote)",
+      "content": "- Acted as the primary Business Analyst on a project funded by the Malaysian government, coordinating closely with stakeholders to ensure alignment and project success\n- Participated in requirements meetings with major clients, including Bank of America and Robert Walters, translating business needs into technical specification\n- Developed multiple micro-services for Kenja Rooms 4 + addressed bugs fixes for Kenja Rooms 3 with React.js\n- Created automated end-to-end tests with Playwright (Python)\n- Designed Figma mockups for Kenja Rooms 4",
+      "link": "https://kenja.com"
+    },
+    {
+      "position": "Project Manager",
+      "company": "La Française Group (Crédit Mutuel Group)",
+      "date": "01/2020 - 08/2020",
+      "location": "Paris, France",
+      "content": "- Managed the production of financial communication materials, including quarterly/annual reports for 21 real estate investment funds (100,000+ copies)\n- Coordinated a cross-functional team of 20+ professionals, ensuring all deadlines were met",
+      "link": "https://www.la-francaise.com/en"
+    }
+  ]
+}
