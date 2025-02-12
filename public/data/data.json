@@ -116,6 +116,7 @@
         "Storybook",
         "Prisma",
         "Clerk",
+        "Data encryption",
         "GitHub CI",
         "Husky"
       ],
@@ -128,7 +129,7 @@
     {
       "title": "ByteHire",
       "date": "04/2024",
-      "content": "I built a full-stack CRUD recruitment platform from scratch for my final Ironhack bootcamp project, using TypeScript, React, and Node.js. The platform allows companies to manage job offers and applications, while applicants can create profiles, apply for jobs, and track their applications. It's fully mobile-responsive with a sleek dark mode interface for an enhanced user experience.",
+      "content": "I built a full-stack CRUD recruitment platform from scratch, using TypeScript, React, and Node.js. The platform allows companies to manage job offers and applications, while applicants can create profiles, apply for jobs, and track their applications. It's fully mobile-responsive with a sleek dark mode interface for an enhanced user experience.",
       "stack": [
         "TypeScript",
         "React",
@@ -143,28 +144,6 @@
         "github": "https://github.com/smnraphael/ironhack-final-project"
       },
       "image": "/images/bytehire.png"
-    },
-    {
-      "title": "PokémonGet",
-      "date": "04/2024",
-      "content": "In collaboration with Claire and Ivan, we created a Pokémon-themed website using the PokeAPI. Users can explore the first three generations of the Pokédex, build their dream team, and test their knowledge with the interactive PokéQuiz. The platform offers an engaging and immersive experience for Pokémon fans.",
-      "stack": ["TypeScript", "React", "Tailwind CSS"],
-      "link": {
-        "deployed": "https://cache-them-all.netlify.app",
-        "github": "https://github.com/claire2d2/poke-project"
-      },
-      "image": "/images/pokemonget.png"
-    },
-    {
-      "title": "Yes we Kanban!",
-      "date": "03/2024",
-      "content": "Teaming up with my friend Claire during bootcamp, we built a dynamic Kanban project using JavaScript, React, and Tailwind CSS. The standout feature is a sleek drag-and-drop interface for smooth task management.",
-      "stack": ["JavaScript", "React", "Tailwind CSS"],
-      "link": {
-        "deployed": "",
-        "github": "https://github.com/smnraphael/kanban-project"
-      },
-      "image": "/images/no-image.jpg"
     },
     {
       "title": "JavaScript Chess Game",
@@ -200,7 +179,7 @@
       "image": "/images/raphael-in-japan.png"
     }
   ],
-  "experiences": [
+  "professionalExperiences": [
     {
       "position": "Front-End Engineer",
       "company": "ekino (Havas Group)",
@@ -225,5 +204,51 @@
       "content": "- Managed the production of financial communication materials, including quarterly/annual reports for 21 real estate investment funds (100,000+ copies)\n- Coordinated a cross-functional team of 20+ professionals, ensuring all deadlines were met",
       "link": "https://www.la-francaise.com/en"
     }
-  ]
+  ],
+  "skills": {
+    "languagesFrameworks": [
+      { "name": "JavaScript", "icon": "si-javascript" },
+      { "name": "TypeScript", "icon": "si-typescript" },
+      { "name": "Python", "icon": "si-python" },
+      { "name": "React", "icon": "si-react" },
+      { "name": "Next.js", "icon": "si-nextdotjs" },
+      { "name": "Vue.js", "icon": "si-vuedotjs" },
+      { "name": "Node.js", "icon": "si-nodedotjs" }
+    ],
+
+    "uiStyling": [
+      { "name": "Tailwind CSS", "icon": "si-tailwindcss" },
+      { "name": "styled-components", "icon": "si-styledcomponents" },
+      { "name": "Storybook", "icon": "si-storybook" },
+      { "name": "Figma", "icon": "si-figma" }
+    ],
+
+    "testingAutomation": [
+      { "name": "Jest", "icon": "si-jest" },
+      { "name": "Cypress", "icon": "si-cypress" },
+      { "name": "GitHub Actions (CI)", "icon": "si-githubactions" },
+      { "name": "Husky", "icon": "bi-code" }
+    ],
+
+    "databasesApis": [
+      { "name": "MongoDB", "icon": "si-mongodb" },
+      { "name": "PostgreSQL", "icon": "si-postgresql" },
+      { "name": "SQLite", "icon": "si-sqlite" },
+      { "name": "REST APIs", "icon": "bi-code" }
+    ],
+
+    "analyticsTracking": [
+      { "name": "Google Tag Manager", "icon": "si-googleanalytics" },
+      { "name": "Adobe Analytics", "icon": "si-adobe" }
+    ],
+
+    "versionControlTools": [
+      { "name": "Git", "icon": "si-git" },
+      { "name": "GitHub", "icon": "si-github" },
+      { "name": "GitLab", "icon": "si-gitlab" },
+      { "name": "Jira", "icon": "si-jira" },
+      { "name": "Slack", "icon": "si-slack" },
+      { "name": "Teams", "icon": "si-microsoftteams" }
+    ]
+  }
 }

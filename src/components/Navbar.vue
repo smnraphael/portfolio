@@ -2,6 +2,7 @@
 import { ref } from "vue";
 
 const menu = ref([
+  { name: "Skills", href: "#skills" },
   { name: "Projects", href: "#projects" },
   { name: "Professional experiences", href: "#professional-experiences" },
   { name: "Education", href: "#education" },

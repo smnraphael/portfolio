@@ -14,10 +14,10 @@ AOS.init();
   >
     <div class="flex justify-center items-center">
       <div
-        class="flex justify-center items-center flex-col md:flex-row gap-8 md:gap-10 px-6 text-center md:text-left"
+        class="flex justify-center items-center flex-col md:flex-row gap-8 md:gap-10 px-6 md:px-0 text-center md:text-left"
       >
         <div
-          class="flex justify-center md:w-[50%] flex-col h-full gap-5 md:pl-10 -mt-24 md:-mt-12"
+          class="flex justify-center md:w-[50%] flex-col h-full gap-5 -mt-24 md:-mt-12"
         >
           <h1 class="font-bold text-3xl md:text-5xl lg:text-6xl">
             Hi, I'm
@@ -27,7 +27,7 @@ AOS.init();
             >
             👋
           </h1>
-          <p class="text-slate-300 font-light">
+          <p class="text-sm md:text-lg lg:text-lg text-slate-300 font-light">
             Software Engineer specializing in TypeScript and React, with 3 years
             of experience developing scalable web applications. I enjoy writing
             clean, modular, and maintainable code, and I have contributed to
@@ -38,7 +38,7 @@ AOS.init();
           <div class="flex gap-5 justify-center items-center md:justify-start">
             <a
               href="#contact"
-              class="rounded-full bg-gradient-to-r from-orange-400 to-pink-400 border border-orange-400 px-6 py-2 cursor-pointer font-medium transition-all duration-300 hover:bg-gradient-to-r hover:from-pink-400 hover:to-orange-400"
+              class="rounded-full bg-gradient-to-r from-orange-400 to-pink-400 border border-orange-400 px-4 py-1 md:px-6 md:py-2 cursor-pointer font-medium transition-all duration-300 hover:bg-gradient-to-r hover:from-pink-400 hover:to-orange-400 text-center"
             >
               Hire me
             </a>
@@ -46,7 +46,7 @@ AOS.init();
             <a
               :href="resume"
               target="_blank"
-              class="rounded-full border border-orange-400 px-6 py-2 flex items-center space-x-2 cursor-pointer"
+              class="rounded-full border border-orange-400 px-4 py-1 md:px-6 md:py-2 flex items-center space-x-2 cursor-pointer text-center"
             >
               <span>
                 <svg
@@ -84,7 +84,7 @@ AOS.init();
             <img
               :src="picture"
               alt="Profile Picture"
-              class="h-48 md:h-64 rounded-full"
+              class="h-36 sm:h-48 md:h-64 rounded-full"
             />
           </div>
         </div>

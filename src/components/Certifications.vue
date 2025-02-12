@@ -20,7 +20,7 @@ onMounted(async () => {
     data-aos="zoom-in-up"
   >
     <h2
-      class="text-5xl font-bold bg-gradient-to-r from-orange-400 to-pink-400 bg-clip-text text-transparent inline-block mt-12"
+      class="text-3xl md:text-4xl lg:text-5xl font-bold bg-gradient-to-r from-orange-400 to-pink-400 bg-clip-text text-transparent inline-block mt-12"
     >
       ./certifications
     </h2>

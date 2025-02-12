@@ -3,6 +3,7 @@ import { defineAsyncComponent } from "vue";
 
 const Navbar = defineAsyncComponent(() => import("@/components/Navbar.vue"));
 const Hero = defineAsyncComponent(() => import("@/components/Hero.vue"));
+const Skills = defineAsyncComponent(() => import("@/components/Skills.vue"));
 const Projects = defineAsyncComponent(() =>
   import("@/components/Projects.vue")
 );
@@ -25,6 +26,7 @@ const ScrollToTop = defineAsyncComponent(() =>
   <div class="bg-slate-900 min-h-screen text-slate-100">
     <Navbar />
     <Hero />
+    <Skills />
     <Projects />
     <ProfessionalExperiences />
     <Education />
