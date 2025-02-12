@@ -17,7 +17,7 @@ AOS.init();
         class="flex justify-center items-center flex-col md:flex-row gap-8 md:gap-10 px-6 md:px-0 text-center md:text-left"
       >
         <div
-          class="flex justify-center md:w-[50%] flex-col h-full gap-5 -mt-24 md:-mt-12"
+          class="flex justify-center md:w-[50%] flex-col h-full gap-5 -mt-[50%] md:-mt-12"
         >
           <h1 class="font-bold text-3xl md:text-5xl lg:text-6xl">
             Hi, I'm

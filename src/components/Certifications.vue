@@ -25,7 +25,7 @@ onMounted(async () => {
       ./certifications
     </h2>
 
-    <div v-if="certifications.length === 0">
+    <div v-if="certifications.length === 0" class="text-center">
       <p>Loading certifications...</p>
     </div>
 
