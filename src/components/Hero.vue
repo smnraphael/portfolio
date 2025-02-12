@@ -9,7 +9,7 @@ AOS.init();
 
 <template>
   <section
-    class="relative w-full h-screen lg:px-32 flex items-center justify-center"
+    class="relative w-full h-screen flex items-center justify-center px-8 lg:px-32"
     data-aos="zoom-in-up"
   >
     <div class="flex justify-center items-center">
@@ -17,7 +17,7 @@ AOS.init();
         class="flex justify-center items-center flex-col md:flex-row gap-8 md:gap-10 px-6 md:px-0 text-center md:text-left"
       >
         <div
-          class="flex justify-center md:w-[50%] flex-col h-full gap-5 -mt-[50%] md:-mt-12"
+          class="flex justify-center md:w-[50%] flex-col h-full gap-5 -mt-28 sm:-mt-12"
         >
           <h1 class="font-bold text-3xl md:text-5xl lg:text-6xl">
             Hi, I'm
