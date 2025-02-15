@@ -4,12 +4,12 @@ import linkedin from "@/assets/linkedin.svg";
 
 <template>
   <section
-    class="pb-20 min-h-screen px-8 lg:px-32 bg-slate-800"
+    class="pb-20 min-h-screen px-8 md:px-12 lg:px-24 xl:px-32 bg-slate-800"
     id="contact"
     data-aos="zoom-in-up"
   >
     <h2
-      class="text-3xl md:text-4xl lg:text-5xl font-bold bg-gradient-to-r from-orange-400 to-pink-400 bg-clip-text text-transparent inline-block mt-12"
+      class="text-3xl md:text-4xl lg:text-5xl font-bold bg-gradient-to-r from-orange-400 to-pink-400 bg-clip-text text-transparent inline-block mt-12 w-fit [text-fill-color:transparent] sm:[text-fill-color:inherit]"
     >
       ./contact
     </h2>

@@ -17,9 +17,11 @@ defineProps({
       class="bg-transparent p-4 rounded-b-2xl flex flex-col gap-5 justify-between flex-grow"
     >
       <div class="flex flex-col gap-3">
-        <div class="flex justify-between items-center gap-3">
+        <div class="flex justify-between items-top gap-3">
           <h3 class="text-2xl font-medium">{{ project.title }}</h3>
-          <p class="text-xs md:text-sm text-right text-slate-500">
+          <p
+            class="text-xs md:text-sm text-right text-slate-500 mt-1 md:whitespace-nowrap"
+          >
             {{ project.date }}
           </p>
         </div>

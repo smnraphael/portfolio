@@ -22,10 +22,11 @@ const scrollToSection = (href) => {
 </script>
 
 <template>
-  <header class="flex justify-between items-center p-4 md:px-8 relative z-20">
-    <div class="text-3xl font-bold">Raphaël SIMON</div>
+  <header class="flex justify-between items-center p-4 lg:px-8 relative z-20">
+    <div>
+      <p class="text-xl md:text-2xl lg:text-3xl font-bold">Raphaël SIMON</p>
+    </div>
 
-    <!-- Mobile Toggle Button -->
     <div class="md:hidden z-30">
       <button type="button" class="block" @click="isMenuOpen = !isMenuOpen">
         <span v-if="isMenuOpen" class="text-3xl">
@@ -93,7 +94,6 @@ const scrollToSection = (href) => {
       </button>
     </div>
 
-    <!-- Navbar Links -->
     <nav
       :class="[
         'fixed inset-0 z-20 flex flex-col items-center justify-center md:relative backdrop-blur-2xl md:bg-transparent md:flex md:justify-between md:flex-row',
@@ -101,15 +101,16 @@ const scrollToSection = (href) => {
       ]"
     >
       <ul
-        class="flex flex-col items-center space-y-5 md:flex-row md:space-x-5 md:space-y-0"
+        class="flex flex-col justify-between gap-2 lg:gap-5 items-center md:flex-row"
       >
-        <li v-for="item in menu" :key="item.name">
+        <li v-for="item in menu" :key="item.name" class="text-center">
           <a
             :href="item.href"
-            class="block text-lg font-semibold bg-gradient-to-r from-slate-100 to-slate-100 bg-clip-text text-transparent group hover:bg-gradient-to-r hover:from-pink-400 hover:to-orange-400 transition-colors duration-300"
+            class="text-md md:text-lg font-semibold bg-gradient-to-r from-slate-100 to-slate-100 bg-clip-text text-transparent group hover:bg-gradient-to-r hover:from-pink-400 hover:to-orange-400 transition-colors duration-300 inline-flex items-center justify-center whitespace-nowrap"
             @click="scrollToSection(item.href)"
-            >{{ item.name }}</a
           >
+            {{ item.name }}
+          </a>
         </li>
       </ul>
     </nav>

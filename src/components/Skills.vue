@@ -69,9 +69,12 @@ onMounted(async () => {
 </script>
 
 <template>
-  <section class="pb-20 min-h-screen px-8 lg:px-32" id="skills">
+  <section
+    class="pb-20 min-h-screen px-8 md:px-12 lg:px-24 xl:px-32"
+    id="skills"
+  >
     <h2
-      class="text-3xl md:text-4xl lg:text-5xl font-bold bg-gradient-to-r from-orange-400 to-pink-400 bg-clip-text text-transparent inline-block mt-12"
+      class="text-3xl md:text-4xl lg:text-5xl font-bold bg-gradient-to-r from-orange-400 to-pink-400 bg-clip-text text-transparent inline-block mt-12 w-fit [text-fill-color:transparent] sm:[text-fill-color:inherit]"
     >
       ./skills
     </h2>
@@ -81,7 +84,7 @@ onMounted(async () => {
       <h3 class="text-xl md:text-2xl font-semibold text-gray-200">
         Languages & Frameworks
       </h3>
-      <div class="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-4 mt-4">
+      <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 mt-4">
         <p
           v-for="skill in skills.languagesFrameworks"
           :key="skill.name"
@@ -98,7 +101,7 @@ onMounted(async () => {
       <h3 class="text-xl md:text-2xl font-semibold text-gray-200">
         UI & Styling
       </h3>
-      <div class="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-4 mt-4">
+      <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 mt-4">
         <p
           v-for="skill in skills.uiStyling"
           :key="skill.name"
@@ -115,7 +118,7 @@ onMounted(async () => {
       <h3 class="text-xl md:text-2xl font-semibold text-gray-200">
         Testing & Automation
       </h3>
-      <div class="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-4 mt-4">
+      <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 mt-4">
         <p
           v-for="skill in skills.testingAutomation"
           :key="skill.name"
@@ -132,7 +135,7 @@ onMounted(async () => {
       <h3 class="text-xl md:text-2xl font-semibold text-gray-200">
         Databases & APIs
       </h3>
-      <div class="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-4 mt-4">
+      <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 mt-4">
         <p
           v-for="skill in skills.databasesApis"
           :key="skill.name"
@@ -149,7 +152,7 @@ onMounted(async () => {
       <h3 class="text-xl md:text-2xl font-semibold text-gray-200">
         Analytics & Tracking
       </h3>
-      <div class="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-4 mt-4">
+      <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 mt-4">
         <p
           v-for="skill in skills.analyticsTracking"
           :key="skill.name"
@@ -166,7 +169,7 @@ onMounted(async () => {
       <h3 class="text-xl md:text-2xl font-semibold text-gray-200">
         Version Control & Tools
       </h3>
-      <div class="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-4 mt-4">
+      <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 mt-4">
         <p
           v-for="skill in skills.versionControlTools"
           :key="skill.name"

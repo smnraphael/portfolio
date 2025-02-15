@@ -9,7 +9,7 @@ AOS.init();
 
 <template>
   <section
-    class="relative w-full h-screen flex items-center justify-center px-8 lg:px-32"
+    class="relative w-full h-screen flex items-center justify-center px-8 md:px-12 lg:px-24 xl:px-32"
     data-aos="zoom-in-up"
   >
     <div class="flex justify-center items-center">

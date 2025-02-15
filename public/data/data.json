@@ -63,19 +63,20 @@
   "projects": [
     {
       "title": "Volkswagen EV fidelity platform",
-      "date": "01/2025 - present",
+      "date": "2025 - present",
       "content": "I built reusable front-end components using React and Sulu CMS for Volkswagen's EV loyalty platform, enhancing the website's functionality and user experience. Additionally, I developed unit tests with Jest, achieving 90% test coverage and significantly reducing production regressions.",
       "stack": ["TypeScript", "React", "Sulu CMS", "Jest", "Adobe Analytics"],
       "link": {
         "github": "",
         "deployed": "https://www.volkswagen.fr/fr/vw-club.html"
       },
-      "image": "/images/vw-club.png"
+      "image": "/images/vw-club.png",
+      "pro": true
     },
     {
-      "title": "Volkswagen dealership websites overhaul",
-      "date": "02/2024 - present",
-      "content": "I completed a full redesign of the Volkswagen, Cupra, Seat, and Škoda booking systems using Next.js within a monorepo, optimizing multi-site management. I developed 50% of the pages under tight deadlines, ensuring an on-time deployment. I also optimized the implementation of the Google Maps API, reducing costs by 5x, and integrated Google Tag Manager and Adobe Analytics, achieving 80% tracking coverage of user interactions. Additionally, I created dynamic email templates in MJML to ensure responsive and consistent communication with users.",
+      "title": "Volkswagen / Cupra / Seat / Škoda booking platforms",
+      "date": "2024 - present",
+      "content": "I completed the full redesign of the Volkswagen, Cupra, Seat, and Škoda booking platforms using Next.js in a monorepo, managing four brand websites simultaneously. I developed reusable components with Storybook and built multiple pages, ensuring a scalable and maintainable architecture. Additionally, I implemented a custom router to handle complex navigation logic across brands and optimized the app's mobile responsiveness for a seamless user experience. I also enhanced Google Maps API integration, reducing costs by 5x, and integrated Google Tag Manager and Adobe Analytics, achieving 80% tracking coverage. To ensure consistent communication, I created email templates in MJML.",
       "stack": [
         "TypeScript",
         "Next.js",
@@ -85,28 +86,31 @@
         "Tina CMS",
         "Cypress",
         "Google Tag Manager",
-        "Adobe Analytics"
+        "Adobe Analytics",
+        "MJML"
       ],
       "link": {
         "github": "",
         "deployed": "https://rdv-atelier.volkswagen-entretien.fr"
       },
-      "image": "/images/overhaul.png"
+      "image": "/images/overhaul.png",
+      "pro": true
     },
     {
       "title": "Portfolio",
-      "date": "02/2025",
+      "date": "2025",
       "content": "I built my portfolio using Vue.js to start exploring this framework. It showcases my journey as a front-end developer and highlights some of the projects I've worked on, including building reusable components, optimizing user experiences, and integrating key technologies to enhance functionality and performance.",
       "stack": ["JavaScript", "Vue.js", "Tailwind CSS"],
       "link": {
         "github": "https://github.com/smnraphael/portfolio",
         "deployed": "https://smnraphael-portfolio.netlify.app"
       },
-      "image": "/images/portfolio.png"
+      "image": "/images/portfolio.png",
+      "pro": false
     },
     {
       "title": "Budget Tracker",
-      "date": "09/2024 - 10/2024",
+      "date": "2024",
       "content": "I built a secure, user-friendly budget tracker app from scratch to deployment using Next.js, Prisma, and Clerk for authentication. It features encrypted data privacy, fast performance, and a polished design with shadcn/ui. The app is maintained with modern tools like Husky, commitlint, and Prettier for high-quality code, and includes CI/CD pipelines for smooth development and deployment. It's deployed on Vercel for seamless access, ensuring a reliable and efficient user experience.",
       "stack": [
         "TypeScript",
@@ -124,11 +128,12 @@
         "deployed": "https://budget-tracker-amber.vercel.app",
         "github": "https://github.com/smnraphael/budget-tracker"
       },
-      "image": "/images/budget-tracker.png"
+      "image": "/images/budget-tracker.png",
+      "pro": false
     },
     {
       "title": "ByteHire",
-      "date": "04/2024",
+      "date": "2024",
       "content": "I built a full-stack CRUD recruitment platform from scratch, using TypeScript, React, and Node.js. The platform allows companies to manage job offers and applications, while applicants can create profiles, apply for jobs, and track their applications. It's fully mobile-responsive with a sleek dark mode interface for an enhanced user experience.",
       "stack": [
         "TypeScript",
@@ -143,40 +148,44 @@
         "deployed": "https://smnraphael-bytehire.netlify.app",
         "github": "https://github.com/smnraphael/ironhack-final-project"
       },
-      "image": "/images/bytehire.png"
+      "image": "/images/bytehire.png",
+      "pro": false
     },
     {
       "title": "JavaScript Chess Game",
-      "date": "03/2024",
+      "date": "2024",
       "content": "I developed a chess game from scratch using vanilla JavaScript, HTML, and CSS. Focused on DOM manipulation, this project was a valuable learning experience in front-end development, despite being unfinished due to time constraints and structural challenges.",
       "stack": ["JavaScript", "HTML", "CSS"],
       "link": {
         "deployed": "https://smnraphael.github.io/js-chess-game",
         "github": "https://github.com/smnraphael/js-chess-game"
       },
-      "image": "/images/chess.png"
+      "image": "/images/chess.png",
+      "pro": false
     },
     {
       "title": "Not-Reddit",
-      "date": "11/2023",
-      "content": "My first React project, Not-Reddit, is a Reddit client built as part of my Front-End Engineer certification with Codecademy. Using the Reddit API, I explored React development and created a user-friendly interface to navigate Reddit’s content.",
+      "date": "2023",
+      "content": "Not-Reddit is a Reddit client built as part of my Front-End Engineer certification with Codecademy. Using the Reddit API, I explored React development and created a user-friendly interface to navigate Reddit's content.",
       "stack": ["JavaScript", "React", "CSS"],
       "link": {
         "deployed": "https://smnraphael-not-reddit.netlify.app",
         "github": "https://github.com/smnraphael/not-reddit"
       },
-      "image": "/images/not-reddit.png"
+      "image": "/images/not-reddit.png",
+      "pro": false
     },
     {
       "title": "Raphaël in Japan",
-      "date": "08/2023",
-      "content": "For my first full-stack project, I completed the final project of Harvard's CS50 course. Using Python Flask for the backend and SQLite for database management, I built a robust web application, marking a key milestone in my development journey.",
+      "date": "2023",
+      "content": "For my first full-stack project, I built a web application as the final project of Harvard's CS50 course. Using Python Flask for the backend and SQLite for database management, this project marked a key milestone in my development journey.",
       "stack": ["Python", "Flask", "SQLite", "JavaScript", "HTML", "Bootstrap"],
       "link": {
         "deployed": "",
         "github": "https://github.com/smnraphael/raphael-in-japan"
       },
-      "image": "/images/raphael-in-japan.png"
+      "image": "/images/raphael-in-japan.png",
+      "pro": false
     }
   ],
   "professionalExperiences": [
