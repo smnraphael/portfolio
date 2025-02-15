@@ -42,7 +42,7 @@ const filteredProjects = computed(() => {
         <label for="filter" class="font-semibold text-slate-300"
           >Filter by:</label
         >
-        <div>
+        <div class="relative">
           <select
             id="filter"
             v-model="selectedFilter"
