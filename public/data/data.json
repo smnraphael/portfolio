@@ -97,6 +97,18 @@
       "pro": true
     },
     {
+      "title": "Data Structures & Algorithms (DSA)",
+      "date": "2025",
+      "content": "This repository documents my learning journey and implementations of various Data Structures and Algorithms in JavaScript, following a comprehensive course, and includes practical LeetCode exercises to solidify my understanding.",
+      "stack": ["JavaScript"],
+      "link": {
+        "github": "https://github.com/smnraphael/data-structures-algorithms",
+        "deployed": ""
+      },
+      "image": "/images/dsa.png",
+      "pro": false
+    },
+    {
       "title": "Portfolio",
       "date": "2025",
       "content": "I built my portfolio using Vue.js to start exploring this framework. It showcases my journey as a front-end developer and highlights some of the projects I've worked on, including building reusable components, optimizing user experiences, and integrating key technologies to enhance functionality and performance.",
