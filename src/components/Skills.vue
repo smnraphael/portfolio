@@ -2,60 +2,52 @@
 import { ref, onMounted } from "vue";
 import { OhVueIcon, addIcons } from "oh-vue-icons";
 import {
-  SiJavascript,
   SiTypescript,
   SiPython,
   SiReact,
   SiNextdotjs,
   SiVuedotjs,
   SiNodedotjs,
+  SiMongodb,
+  SiPostgresql,
   SiTailwindcss,
   SiStyledcomponents,
-  SiStorybook,
-  SiFigma,
   SiJest,
   SiCypress,
   SiGithubactions,
-  SiMongodb,
-  SiPostgresql,
-  SiSqlite,
-  SiGoogleanalytics,
-  SiAdobe,
   SiGit,
   SiGithub,
   SiGitlab,
   SiJira,
   SiSlack,
   SiMicrosoftteams,
+  SiFigma,
+  IoLanguage,
   BiCode,
 } from "oh-vue-icons/icons";
 
 addIcons(
-  SiJavascript,
   SiTypescript,
   SiPython,
   SiReact,
   SiNextdotjs,
   SiVuedotjs,
   SiNodedotjs,
+  SiMongodb,
+  SiPostgresql,
   SiTailwindcss,
   SiStyledcomponents,
-  SiStorybook,
-  SiFigma,
   SiJest,
   SiCypress,
   SiGithubactions,
-  SiMongodb,
-  SiPostgresql,
-  SiSqlite,
-  SiGoogleanalytics,
-  SiAdobe,
   SiGit,
   SiGithub,
   SiGitlab,
   SiJira,
   SiSlack,
   SiMicrosoftteams,
+  SiFigma,
+  IoLanguage,
   BiCode
 );
 
@@ -79,31 +71,14 @@ onMounted(async () => {
       ./skills
     </h2>
 
-    <!-- Languages & Frameworks -->
+    <!-- Technologies & Frameworks -->
     <div class="mt-12">
       <h3 class="text-xl md:text-2xl font-semibold text-gray-200">
         Languages & Frameworks
       </h3>
       <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 mt-4">
         <p
-          v-for="skill in skills.languagesFrameworks"
-          :key="skill.name"
-          class="text-sm md:text-lg font-medium bg-slate-800 p-3 rounded-lg flex items-center gap-2"
-        >
-          <OhVueIcon :name="skill.icon" />
-          {{ skill.name }}
-        </p>
-      </div>
-    </div>
-
-    <!-- UI & Styling -->
-    <div class="mt-8">
-      <h3 class="text-xl md:text-2xl font-semibold text-gray-200">
-        UI & Styling
-      </h3>
-      <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 mt-4">
-        <p
-          v-for="skill in skills.uiStyling"
+          v-for="skill in skills.technologiesFrameworks"
           :key="skill.name"
           class="text-sm md:text-lg font-medium bg-slate-800 p-3 rounded-lg flex items-center gap-2"
         >
@@ -130,14 +105,14 @@ onMounted(async () => {
       </div>
     </div>
 
-    <!-- Databases & APIs -->
+    <!-- Version Control & Collaboration -->
     <div class="mt-8">
       <h3 class="text-xl md:text-2xl font-semibold text-gray-200">
-        Databases & APIs
+        Version Control & Collaboration
       </h3>
       <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 mt-4">
         <p
-          v-for="skill in skills.databasesApis"
+          v-for="skill in skills.versionControlCollaboration"
           :key="skill.name"
           class="text-sm md:text-lg font-medium bg-slate-800 p-3 rounded-lg flex items-center gap-2"
         >
@@ -147,31 +122,12 @@ onMounted(async () => {
       </div>
     </div>
 
-    <!-- Analytics & Tracking -->
+    <!-- Languages -->
     <div class="mt-8">
-      <h3 class="text-xl md:text-2xl font-semibold text-gray-200">
-        Analytics & Tracking
-      </h3>
+      <h3 class="text-xl md:text-2xl font-semibold text-gray-200">Languages</h3>
       <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 mt-4">
         <p
-          v-for="skill in skills.analyticsTracking"
-          :key="skill.name"
-          class="text-sm md:text-lg font-medium bg-slate-800 p-3 rounded-lg flex items-center gap-2"
-        >
-          <OhVueIcon :name="skill.icon" />
-          {{ skill.name }}
-        </p>
-      </div>
-    </div>
-
-    <!-- Version Control & Tools -->
-    <div class="mt-8">
-      <h3 class="text-xl md:text-2xl font-semibold text-gray-200">
-        Version Control & Tools
-      </h3>
-      <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 mt-4">
-        <p
-          v-for="skill in skills.versionControlTools"
+          v-for="skill in skills.languages"
           :key="skill.name"
           class="text-sm md:text-lg font-medium bg-slate-800 p-3 rounded-lg flex items-center gap-2"
         >

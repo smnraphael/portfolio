@@ -227,49 +227,40 @@
     }
   ],
   "skills": {
-    "languagesFrameworks": [
-      { "name": "JavaScript", "icon": "si-javascript" },
+    "technologiesFrameworks": [
       { "name": "TypeScript", "icon": "si-typescript" },
       { "name": "Python", "icon": "si-python" },
       { "name": "React", "icon": "si-react" },
       { "name": "Next.js", "icon": "si-nextdotjs" },
       { "name": "Vue.js", "icon": "si-vuedotjs" },
-      { "name": "Node.js", "icon": "si-nodedotjs" }
-    ],
-
-    "uiStyling": [
+      { "name": "Node.js", "icon": "si-nodedotjs" },
+      { "name": "MongoDB", "icon": "si-mongodb" },
+      { "name": "PostgreSQL", "icon": "si-postgresql" },
+      { "name": "REST APIs", "icon": "bi-code" },
       { "name": "Tailwind CSS", "icon": "si-tailwindcss" },
-      { "name": "styled-components", "icon": "si-styledcomponents" },
-      { "name": "Storybook", "icon": "si-storybook" },
-      { "name": "Figma", "icon": "si-figma" }
+      { "name": "styled-components", "icon": "si-styledcomponents" }
     ],
 
     "testingAutomation": [
       { "name": "Jest", "icon": "si-jest" },
       { "name": "Cypress", "icon": "si-cypress" },
-      { "name": "GitHub Actions (CI)", "icon": "si-githubactions" },
-      { "name": "Husky", "icon": "bi-code" }
+      { "name": "CI/CD", "icon": "si-githubactions" }
     ],
 
-    "databasesApis": [
-      { "name": "MongoDB", "icon": "si-mongodb" },
-      { "name": "PostgreSQL", "icon": "si-postgresql" },
-      { "name": "SQLite", "icon": "si-sqlite" },
-      { "name": "REST APIs", "icon": "bi-code" }
-    ],
-
-    "analyticsTracking": [
-      { "name": "Google Tag Manager", "icon": "si-googleanalytics" },
-      { "name": "Adobe Analytics", "icon": "si-adobe" }
-    ],
-
-    "versionControlTools": [
+    "versionControlCollaboration": [
       { "name": "Git", "icon": "si-git" },
       { "name": "GitHub", "icon": "si-github" },
       { "name": "GitLab", "icon": "si-gitlab" },
       { "name": "Jira", "icon": "si-jira" },
       { "name": "Slack", "icon": "si-slack" },
-      { "name": "Teams", "icon": "si-microsoftteams" }
+      { "name": "Teams", "icon": "si-microsoftteams" },
+      { "name": "Figma", "icon": "si-figma" }
+    ],
+
+    "languages": [
+      { "name": "French (native)", "icon": "io-language" },
+      { "name": "English (fluent)", "icon": "io-language" },
+      { "name": "Japanese (beginner)", "icon": "io-language" }
     ]
   }
 }
