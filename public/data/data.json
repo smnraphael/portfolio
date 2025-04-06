@@ -1,6 +1,11 @@
 {
   "certifications": [
     {
+      "course": "Opquast: Web quality assurance rules - Expert (900/1000)",
+      "school": "Opquast",
+      "time": ""
+    },
+    {
       "course": "Web Development Bootcamp",
       "school": "Ironhack",
       "time": "400 hours"
@@ -64,7 +69,7 @@
     {
       "title": "Volkswagen EV fidelity platform",
       "date": "2025 - present",
-      "content": "I built reusable front-end components using React and Sulu CMS for Volkswagen's EV loyalty platform, enhancing the website's functionality and user experience. Additionally, I developed unit tests with Jest, achieving 90% test coverage and significantly reducing production regressions.",
+      "content": "I built reusable front-end components using React and Sulu CMS for Volkswagen's EV loyalty platform, enhancing the website's functionality and user experience. Additionally, I developed unit tests with Jest, achieving 95% test coverage and significantly reducing production regressions.",
       "stack": ["TypeScript", "React", "Sulu CMS", "Jest", "Adobe Analytics"],
       "link": {
         "github": "",
@@ -76,7 +81,7 @@
     {
       "title": "Volkswagen / Cupra / Seat / Škoda booking platforms",
       "date": "2024 - present",
-      "content": "I completed the full redesign of the Volkswagen, Cupra, Seat, and Škoda booking platforms using Next.js in a monorepo, managing four brand websites simultaneously. I developed reusable components with Storybook and built multiple pages, ensuring a scalable and maintainable architecture. Additionally, I implemented a custom router to handle complex navigation logic across brands and optimized the app's mobile responsiveness for a seamless user experience. I also enhanced Google Maps API integration, reducing costs by 5x, and integrated Google Tag Manager and Adobe Analytics, achieving 80% tracking coverage. To ensure consistent communication, I created email templates in MJML.",
+      "content": "I completed the full redesign of the Volkswagen, Audi, Cupra, Seat, and Škoda booking platforms using Next.js in a monorepo, managing four brand websites simultaneously. I developed reusable components with Storybook and built multiple pages, ensuring a scalable and maintainable architecture. Additionally, I implemented a custom router to handle complex navigation logic across brands and optimized the app's mobile responsiveness for a seamless user experience. I also enhanced Google Maps API integration, reducing costs by 5x, and integrated Google Tag Manager and Adobe Analytics, achieving 80% tracking coverage. To ensure consistent communication, I created email templates in MJML.",
       "stack": [
         "TypeScript",
         "Next.js",
@@ -210,11 +215,11 @@
       "link": "https://www.ekino.com"
     },
     {
-      "position": "IT Business Analyst & Front-End Developer",
+      "position": "Technical Consultant & Front-End Developer",
       "company": "Kenja K.K.",
       "date": "09/2022 - 02/2024",
       "location": "Tokyo, Japan (remote)",
-      "content": "- Acted as the primary Business Analyst on a project funded by the Malaysian government, coordinating closely with stakeholders to ensure alignment and project success\n- Participated in requirements meetings with major clients, including Bank of America and Robert Walters, translating business needs into technical specification\n- Developed multiple micro-services for Kenja Rooms 4 + addressed bugs fixes for Kenja Rooms 3 with React.js\n- Created automated end-to-end tests with Playwright (Python)\n- Designed Figma mockups for Kenja Rooms 4",
+      "content": "- Acted as the main Technical Consultant on a 250k project funded by the Malaysian government, coordinating closely with stakeholders to ensure alignment and project success\n- Participated in requirements meetings with major clients, including Bank of America and Robert Walters, translating business needs into technical specification\n- Developed multiple micro-services for Kenja Rooms 4 + addressed bugs fixes for Kenja Rooms 3 with React.js\n- Created automated end-to-end tests with Playwright (Python)\n- Designed Figma mockups for Kenja Rooms 4",
       "link": "https://kenja.com"
     },
     {

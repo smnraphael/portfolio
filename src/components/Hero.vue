@@ -2,7 +2,7 @@
 import AOS from "aos";
 import "aos/dist/aos";
 import picture from "@/assets/picture.jpg";
-import resume from "@/assets/resume.pdf";
+import resume from "@/assets/resume_raphael_simon.pdf";
 
 AOS.init();
 </script>
